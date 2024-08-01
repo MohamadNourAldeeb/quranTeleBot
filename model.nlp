@@ -1,0 +1,5683 @@
+{
+  "settings": {
+    "languages": [
+      "ar"
+    ],
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "autoSave": true,
+    "modelFileName": "model.nlp",
+    "executeActionsBeforeAnswers": false,
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "ar"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "ar": {
+        "settings": {
+          "locale": "ar",
+          "trainByDomain": false,
+          "tag": "domain-manager-ar",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "مرحب": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "كيف": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "حبيب,شلون": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "شلون": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "أخبار,شو": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "حال,شو": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "شلون,غال": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "اخ,شلون": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "ها": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "سلاما": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "حال,كيف": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "اخبار,ما": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "هايا": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "هلو": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "الوو": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "مراحب": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "شالوم": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "حابب,حكي": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "سلام,علي": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "": {
+            "intent": "welcome",
+            "domain": "default"
+          },
+          "به,تقوم,ماذ": {
+            "intent": "job",
+            "domain": "default"
+          },
+          "عمل,ما": {
+            "intent": "job",
+            "domain": "default"
+          },
+          "تعمل,ماذ": {
+            "intent": "job",
+            "domain": "default"
+          },
+          "تشتغل,شو": {
+            "intent": "job",
+            "domain": "default"
+          },
+          "تعمل,شو": {
+            "intent": "job",
+            "domain": "default"
+          },
+          "شو,منك,هدف": {
+            "intent": "job",
+            "domain": "default"
+          },
+          "الت,تقدم,ما,مهم": {
+            "intent": "job",
+            "domain": "default"
+          },
+          "تقدم,ماذ": {
+            "intent": "job",
+            "domain": "default"
+          },
+          "تقدم,شو": {
+            "intent": "job",
+            "domain": "default"
+          },
+          "الت,تقدم,شو,مهم": {
+            "intent": "job",
+            "domain": "default"
+          },
+          "خدم,لدي,ما,مقدم": {
+            "intent": "job",
+            "domain": "default"
+          },
+          "خدم,شو,متوفر": {
+            "intent": "job",
+            "domain": "default"
+          },
+          "خدم,ما,متوفر": {
+            "intent": "job",
+            "domain": "default"
+          },
+          "بوت,ليش,موجود": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "بوت,ما,من,هدف": {
+            "intent": "job",
+            "domain": "default"
+          },
+          "خبر,عنك": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "أخبر,عنك": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "حدث,عنك": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "اشرح,عنك,لي": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "حكيل,عنك": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "لشو,هالبو": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "عامل,ليش,هالبو": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "بوت,حكيل,عن": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "بوت,عامل,لي": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "اوصفل,نفس": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "صف,لي,نفس": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "صفل,لي,نفس": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "شو,فايد,منك": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "بوت,شو,فايد,من": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "استفيد,بوت,رح,شو,من": {
+            "intent": "about_bot",
+            "domain": "default"
+          },
+          "بوت,عمر,قد": {
+            "intent": "age",
+            "domain": "default"
+          },
+          "بوت,صرلو,قد,منشأ": {
+            "intent": "age",
+            "domain": "default"
+          },
+          "صرلو,قد": {
+            "intent": "age",
+            "domain": "default"
+          },
+          "ايم,معمول,من": {
+            "intent": "age",
+            "domain": "default"
+          },
+          "ايم,بوت,شغال,من": {
+            "intent": "age",
+            "domain": "default"
+          },
+          "الوت,كم,منذ,يعمل": {
+            "intent": "age",
+            "domain": "default"
+          },
+          "بوت,شو,عمر": {
+            "intent": "age",
+            "domain": "default"
+          },
+          "اعرف,بوت,حابب,عمر": {
+            "intent": "age",
+            "domain": "default"
+          },
+          "اعرف,بوت,حابب,صرلو,قد": {
+            "intent": "age",
+            "domain": "default"
+          },
+          "انشاء,بوت,تم,متي": {
+            "intent": "age",
+            "domain": "default"
+          },
+          "بوت,تأنشأ,متي": {
+            "intent": "age",
+            "domain": "default"
+          },
+          "ايم,بوت,عملت": {
+            "intent": "age",
+            "domain": "default"
+          },
+          "بوت,تشغيل,قمتم,متي": {
+            "intent": "age",
+            "domain": "default"
+          },
+          "بوت,عمر,ما": {
+            "intent": "age",
+            "domain": "default"
+          },
+          "غب,كتير,هالبو": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "بطئ,شو,هالبو": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "بوت,غب,لي,هيك": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "حبي,ما,هالبو": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "بهو,بوت": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "ما,منيح,هالبو": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "انت,جدا,سيئ": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "بوت,جدا,سيئ": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "روح,عنا,ولو": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "اسوء,بوت,شوف": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "اسوء,بوت,حيات,شوف": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "استجاب,طيئ": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "يع": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "تفه": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "تفوو": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "بوت,حسنو,روحو": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "بوت,تبع,زبال": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "الرد,طيئ,كتير": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "زبال": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "بضح,هالبو": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "بخز,هالبو": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "حال,روحو,طورو": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "حال,حسنو,روحو": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "انقلع": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "سيئ,شغل": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "بوت,جيد,غير": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "الله,لا,يوفق": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "الله,سامح,لا": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "بوت,غير,مفيد": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "بوت,داع,لا": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "غير,مفيد": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "غير,مثمر": {
+            "intent": "bad",
+            "domain": "default"
+          },
+          "بوت,مدير,مين": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "مدير,من": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "معلم,مين": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "اصحاب,بوت,مين": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "كام,مدير": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "اسم,بوت,شو,مدير": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "اسم,بوت,ما,مدير": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "اسماء,بوت,ما,مدراء": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "بوس,مين": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "بوت,مال,مين": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "بوت,صاحب,مين": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "بوت,لمين": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "بوت,صنع,من": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "بوت,صنع,مين": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "ال,انشأ,بوت,مين": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "مبرمج,من": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "ال,رمج,مين": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "ال,صنع,مين": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "اسم,بوت,ما,مبرمج": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "صاحاب,مشروع,من": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "لمين,هالبو": {
+            "intent": "master",
+            "domain": "default"
+          },
+          "تساعد,فيك": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "بد,خيو,مساعد": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "بد,مساعد": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "مساعدت,هل,يمك": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "تقديم,سماعد,لي,هل,يمك": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "بد,تساعد,شغل,ياك": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "تخدم,فيك": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "ساعد": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "اسعف": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "مي,هيلب": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "تخدم,فيك,قد": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "تساعد,فيك,قد": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "كم,مساعدت,يمك": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "بد,خدم": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "عذب,فين": {
+            "intent": "help",
+            "domain": "default"
+          },
+          "اكيد,صح,هالمعلوما": {
+            "intent": "truth",
+            "domain": "default"
+          },
+          "اكيد,صحيح,هالمعلوما": {
+            "intent": "truth",
+            "domain": "default"
+          },
+          "تري,صحيح,هالمعلوما,يا": {
+            "intent": "truth",
+            "domain": "default"
+          },
+          "انت,تحك,تري,حقيق,عم,يا": {
+            "intent": "truth",
+            "domain": "default"
+          },
+          "انت,تحك,حقيق,عم": {
+            "intent": "truth",
+            "domain": "default"
+          },
+          "اكيد,هالمعلوما": {
+            "intent": "truth",
+            "domain": "default"
+          },
+          "شو,كلام,مصداق": {
+            "intent": "truth",
+            "domain": "default"
+          },
+          "ام,صح,لا,معلوم,هل": {
+            "intent": "truth",
+            "domain": "default"
+          },
+          "اسف,انا": {
+            "intent": "sorry",
+            "domain": "default"
+          },
+          "انا,عتذر": {
+            "intent": "sorry",
+            "domain": "default"
+          },
+          "عفو": {
+            "intent": "sorry",
+            "domain": "default"
+          },
+          "اسف,كتير": {
+            "intent": "sorry",
+            "domain": "default"
+          },
+          "خطئ,هاد": {
+            "intent": "sorry",
+            "domain": "default"
+          },
+          "اسف,لحظ": {
+            "intent": "sorry",
+            "domain": "default"
+          },
+          "سامح": {
+            "intent": "sorry",
+            "domain": "default"
+          },
+          "با,يلا": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "با": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "داع": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "با,سلام,يلا": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "بايا": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "سلام,مع": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "بد,روح": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "نعس": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "با,حاج,يلا": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "فرق,نعس,يلا": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "تعب": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "عدين,منحك": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "كتير,معصب": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "معصب": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "خلاق,دايق": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "مالل": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "روح,طاق": {
+            "intent": "bye",
+            "domain": "default"
+          },
+          "حال,كرهان": {
+            "intent": "bye",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "welcome": "default",
+          "job": "default",
+          "about_bot": "default",
+          "age": "default",
+          "bad": "default",
+          "master": "default",
+          "help": "default",
+          "truth": "default",
+          "sorry": "default",
+          "bye": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "مرحبا",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "كيفك",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "شلونك حبيب",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "شلونك ",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "شو الأخبار",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": " شو الحالة",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "شلونك غالي",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "شلونك اخي",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "هاي",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "سلامات",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "كيفكم",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "كيف الحال",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "ما الاخبار",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "هايات",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "هلو",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "الوو",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "مراحب",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "شالوم",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "حابب حكيك",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "السلام عليكم",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "كيف حالك",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": "",
+            "intent": "welcome"
+          },
+          {
+            "domain": "default",
+            "utterance": " ماذا تقوم به ",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": " ما عملك",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": " ماذا تعمل",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": "شو بتشتغلو",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": "شو بتعمل ",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": "شو الهدف منك",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": "ما المهمات التي تقدمها",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": " ماذا تقدمون",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": "شو بتقدموا",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": "شو المهمات التي تقدمها",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": " شو بتعملو",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": " ما الخدمات المقدمة لديكم",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": " شو الخدمات المتوفرة",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": " ما الخدمات المتوفرة",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": "ليش البوت موجودة",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": " ما الهدف من البوت",
+            "intent": "job"
+          },
+          {
+            "domain": "default",
+            "utterance": "خبرني عنك",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "أخبرني عنك",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "حدثني عنك",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "اشرح لي عنك",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "حكيلي عنك",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "ليش البوت موجود",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "لشو هالبوت",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "ليش عاملين هالبوت ",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "حكيلي عن البوت",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "لي عاملين البوت",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "اوصفلي نفسك",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "صف لي نفسك",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "وصفلي لي نفسك",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "شو الفايدة منك",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "شو الفايدة من البوت",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "شو فايدة من البوت",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "شو رح استفيد من البوت",
+            "intent": "about_bot"
+          },
+          {
+            "domain": "default",
+            "utterance": "قدي عمر البوت",
+            "intent": "age"
+          },
+          {
+            "domain": "default",
+            "utterance": "قدي صرلو البوت منشأ",
+            "intent": "age"
+          },
+          {
+            "domain": "default",
+            "utterance": "قدي صرلو  ",
+            "intent": "age"
+          },
+          {
+            "domain": "default",
+            "utterance": "من ايمت معمول  ",
+            "intent": "age"
+          },
+          {
+            "domain": "default",
+            "utterance": " من ايمت البوت شغال ",
+            "intent": "age"
+          },
+          {
+            "domain": "default",
+            "utterance": " منذ كم الوت يعمل ",
+            "intent": "age"
+          },
+          {
+            "domain": "default",
+            "utterance": " شو عمر البوت",
+            "intent": "age"
+          },
+          {
+            "domain": "default",
+            "utterance": "حابب اعرف عمر البوت",
+            "intent": "age"
+          },
+          {
+            "domain": "default",
+            "utterance": "حابب اعرف قدي صرلو البوت",
+            "intent": "age"
+          },
+          {
+            "domain": "default",
+            "utterance": "متى تم انشاء البوت",
+            "intent": "age"
+          },
+          {
+            "domain": "default",
+            "utterance": "متى تأنشأ البوت",
+            "intent": "age"
+          },
+          {
+            "domain": "default",
+            "utterance": " ايمت عملتو البوت",
+            "intent": "age"
+          },
+          {
+            "domain": "default",
+            "utterance": "متى قمتم بتشغيل البوت",
+            "intent": "age"
+          },
+          {
+            "domain": "default",
+            "utterance": " ما عمر البوت",
+            "intent": "age"
+          },
+          {
+            "domain": "default",
+            "utterance": "هالبوت كتير غبي",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "  شو هالبوت البطئ",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": " لي هيك البوت غبي",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": " ما حبيت هالبوت",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": " البوت بهوي",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": " هالبوت ما منيح ",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "انت سيئ جدا",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "البوت سيئ جدا",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": " روح عنا ولو",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "اسوء بوت بشوفو",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": " اسوء بوت بشوفو بحياتي",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "استجابتك بطيئة",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "يع ",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "تفه ",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "تفوو ",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "روحو حسنو البوت  ",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "البوت تبعكم زبالة",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "كتير الرد بطيئ",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "زبالة",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "هالبوت بضحك",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "هالبوت بخزي ",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": " روحو طورو حالكم ",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": " روحو حسنو حالكم ",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": " انقلع ",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": " انقلع ",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": " شغلكم سيئ ",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "  البوت غير جيد ",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "الله لا يوفقك",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "لا سامحكم الله",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "البوت غير مفيد",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "لا داعي للبوت",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "غير مفيد",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "غير مثمر",
+            "intent": "bad"
+          },
+          {
+            "domain": "default",
+            "utterance": "مين مدير البوت",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": "من المدير",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": "مين معلمك ",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": "مين اصحاب البوت  ",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": "كام مدير ",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": " شو اسم مدير البوت",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": "ما اسم مدير البوت ",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": "ما اسماء مدراء البوت ",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": " مين البوس  ",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": " مين مالك البوت ",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": " مين صاحب البوت ",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": " لمين البوت ",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": " من صنع البوت ",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": " مين صنع البوت ",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": " مين الي انشأ البوت ",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": "من المبرمج",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": "مين الي برمجك",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": "مين الي صنعك",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": " ما اسم مبرمج البوت",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": "من صاحاب المشروع",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": " لمين هالبوت ",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": "  مين صاحب البوت ",
+            "intent": "master"
+          },
+          {
+            "domain": "default",
+            "utterance": "فيك تساعدني",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": "بدي مساعدتك خيو",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": "بدي  مساعدة",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": "هل يمكنك مساعدتي",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": "هل يمكنك تقديم السماعدة لي",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": "بدي ياك تساعدني بشغلة",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": " فيك تخدمني",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": "ساعدني",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": "اسعفني",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": "هيلب مي",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": "قدي فيك تخدمني",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": "قدي فيك تساعدني",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": "كم يمكنك مساعدتي",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": "فيك تساعدني",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": "بدي خدمة",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": "فيني عذبك؟",
+            "intent": "help"
+          },
+          {
+            "domain": "default",
+            "utterance": " اكيد هالمعلومات صح",
+            "intent": "truth"
+          },
+          {
+            "domain": "default",
+            "utterance": " اكيد هالمعلومات صحيحة",
+            "intent": "truth"
+          },
+          {
+            "domain": "default",
+            "utterance": " يا ترى هالمعلومات صحيحة",
+            "intent": "truth"
+          },
+          {
+            "domain": "default",
+            "utterance": " يا ترى  انت عم تحكي الحقيقة ؟",
+            "intent": "truth"
+          },
+          {
+            "domain": "default",
+            "utterance": " انت عم تحكي الحقيقة ؟",
+            "intent": "truth"
+          },
+          {
+            "domain": "default",
+            "utterance": " هالمعلومات اكيدة",
+            "intent": "truth"
+          },
+          {
+            "domain": "default",
+            "utterance": "شو مصداقية الكلام",
+            "intent": "truth"
+          },
+          {
+            "domain": "default",
+            "utterance": "هل المعلومات صحية ام لا",
+            "intent": "truth"
+          },
+          {
+            "domain": "default",
+            "utterance": "انا اسف",
+            "intent": "sorry"
+          },
+          {
+            "domain": "default",
+            "utterance": "انا بعتذر",
+            "intent": "sorry"
+          },
+          {
+            "domain": "default",
+            "utterance": " عفوا",
+            "intent": "sorry"
+          },
+          {
+            "domain": "default",
+            "utterance": " اسف كتير",
+            "intent": "sorry"
+          },
+          {
+            "domain": "default",
+            "utterance": "هاد خطئي",
+            "intent": "sorry"
+          },
+          {
+            "domain": "default",
+            "utterance": " لحظة اسف",
+            "intent": "sorry"
+          },
+          {
+            "domain": "default",
+            "utterance": "سامحني",
+            "intent": "sorry"
+          },
+          {
+            "domain": "default",
+            "utterance": "يلا باي",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "باي باي ",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "وداعا ",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "يلا سلام باي ",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "بايات ",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "مع السلامة",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": " بدي روح",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": " نعست ",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "يلا حاج باي ",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "يلا  فرقني نعست ",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": " تعبت",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": " منحكي بعدين",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": " كتير معصب",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "  معصب",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "  دايقة خلاقي",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": " مالل",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": "طاقة روحي",
+            "intent": "bye"
+          },
+          {
+            "domain": "default",
+            "utterance": " كرهان حالي",
+            "intent": "bye"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "ar",
+              "tag": "nlu-ar",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "مرحب": 1,
+              "كيف": 1,
+              "شلون": 1,
+              "حبيب": 1,
+              "شو": 1,
+              "أخبار": 1,
+              "حال": 1,
+              "غال": 1,
+              "اخ": 1,
+              "ها": 1,
+              "سلاما": 1,
+              "ما": 1,
+              "اخبار": 1,
+              "هايا": 1,
+              "هلو": 1,
+              "الوو": 1,
+              "مراحب": 1,
+              "شالوم": 1,
+              "حابب": 1,
+              "حكي": 1,
+              "سلام": 1,
+              "علي": 1,
+              "ماذ": 1,
+              "تقوم": 1,
+              "به": 1,
+              "عمل": 1,
+              "تعمل": 1,
+              "تشتغل": 1,
+              "هدف": 1,
+              "منك": 1,
+              "مهم": 1,
+              "الت": 1,
+              "تقدم": 1,
+              "خدم": 1,
+              "مقدم": 1,
+              "لدي": 1,
+              "متوفر": 1,
+              "ليش": 1,
+              "بوت": 1,
+              "موجود": 1,
+              "من": 1,
+              "خبر": 1,
+              "عنك": 1,
+              "أخبر": 1,
+              "حدث": 1,
+              "اشرح": 1,
+              "لي": 1,
+              "حكيل": 1,
+              "لشو": 1,
+              "هالبو": 1,
+              "عامل": 1,
+              "عن": 1,
+              "اوصفل": 1,
+              "نفس": 1,
+              "صف": 1,
+              "صفل": 1,
+              "فايد": 1,
+              "رح": 1,
+              "استفيد": 1,
+              "قد": 1,
+              "عمر": 1,
+              "صرلو": 1,
+              "منشأ": 1,
+              "ايم": 1,
+              "معمول": 1,
+              "شغال": 1,
+              "منذ": 1,
+              "كم": 1,
+              "الوت": 1,
+              "يعمل": 1,
+              "اعرف": 1,
+              "متي": 1,
+              "تم": 1,
+              "انشاء": 1,
+              "تأنشأ": 1,
+              "عملت": 1,
+              "قمتم": 1,
+              "تشغيل": 1,
+              "كتير": 1,
+              "غب": 1,
+              "بطئ": 1,
+              "هيك": 1,
+              "حبي": 1,
+              "بهو": 1,
+              "منيح": 1,
+              "انت": 1,
+              "سيئ": 1,
+              "جدا": 1,
+              "روح": 1,
+              "عنا": 1,
+              "ولو": 1,
+              "اسوء": 1,
+              "شوف": 1,
+              "حيات": 1,
+              "استجاب": 1,
+              "طيئ": 1,
+              "يع": 1,
+              "تفه": 1,
+              "تفوو": 1,
+              "روحو": 1,
+              "حسنو": 1,
+              "تبع": 1,
+              "زبال": 1,
+              "الرد": 1,
+              "بضح": 1,
+              "بخز": 1,
+              "طورو": 1,
+              "انقلع": 1,
+              "شغل": 1,
+              "غير": 1,
+              "جيد": 1,
+              "الله": 1,
+              "لا": 1,
+              "يوفق": 1,
+              "سامح": 1,
+              "مفيد": 1,
+              "داع": 1,
+              "مثمر": 1,
+              "مين": 1,
+              "مدير": 1,
+              "معلم": 1,
+              "اصحاب": 1,
+              "كام": 1,
+              "اسم": 1,
+              "اسماء": 1,
+              "مدراء": 1,
+              "بوس": 1,
+              "مال": 1,
+              "صاحب": 1,
+              "لمين": 1,
+              "صنع": 1,
+              "ال": 1,
+              "انشأ": 1,
+              "مبرمج": 1,
+              "رمج": 1,
+              "صاحاب": 1,
+              "مشروع": 1,
+              "فيك": 1,
+              "تساعد": 1,
+              "بد": 1,
+              "مساعد": 1,
+              "خيو": 1,
+              "هل": 1,
+              "يمك": 1,
+              "مساعدت": 1,
+              "تقديم": 1,
+              "سماعد": 1,
+              "ياك": 1,
+              "تخدم": 1,
+              "ساعد": 1,
+              "اسعف": 1,
+              "هيلب": 1,
+              "مي": 1,
+              "فين": 1,
+              "عذب": 1,
+              "اكيد": 1,
+              "هالمعلوما": 1,
+              "صح": 1,
+              "صحيح": 1,
+              "يا": 1,
+              "تري": 1,
+              "عم": 1,
+              "تحك": 1,
+              "حقيق": 1,
+              "مصداق": 1,
+              "كلام": 1,
+              "معلوم": 1,
+              "ام": 1,
+              "انا": 1,
+              "اسف": 1,
+              "عتذر": 1,
+              "عفو": 1,
+              "هاد": 1,
+              "خطئ": 1,
+              "لحظ": 1,
+              "يلا": 1,
+              "با": 1,
+              "بايا": 1,
+              "مع": 1,
+              "نعس": 1,
+              "حاج": 1,
+              "فرق": 1,
+              "تعب": 1,
+              "منحك": 1,
+              "عدين": 1,
+              "معصب": 1,
+              "دايق": 1,
+              "خلاق": 1,
+              "مالل": 1,
+              "طاق": 1,
+              "كرهان": 1
+            },
+            "intents": {
+              "welcome": 1,
+              "job": 1,
+              "about_bot": 1,
+              "age": 1,
+              "bad": 1,
+              "master": 1,
+              "help": 1,
+              "truth": 1,
+              "sorry": 1,
+              "bye": 1
+            },
+            "intentFeatures": {
+              "welcome": {
+                "مرحب": 1,
+                "كيف": 1,
+                "شلون": 1,
+                "حبيب": 1,
+                "شو": 1,
+                "أخبار": 1,
+                "حال": 1,
+                "غال": 1,
+                "اخ": 1,
+                "ها": 1,
+                "سلاما": 1,
+                "ما": 1,
+                "اخبار": 1,
+                "هايا": 1,
+                "هلو": 1,
+                "الوو": 1,
+                "مراحب": 1,
+                "شالوم": 1,
+                "حابب": 1,
+                "حكي": 1,
+                "سلام": 1,
+                "علي": 1
+              },
+              "job": {
+                "ماذ": 1,
+                "تقوم": 1,
+                "به": 1,
+                "ما": 1,
+                "عمل": 1,
+                "تعمل": 1,
+                "شو": 1,
+                "تشتغل": 1,
+                "هدف": 1,
+                "منك": 1,
+                "مهم": 1,
+                "الت": 1,
+                "تقدم": 1,
+                "خدم": 1,
+                "مقدم": 1,
+                "لدي": 1,
+                "متوفر": 1,
+                "ليش": 1,
+                "بوت": 1,
+                "موجود": 1,
+                "من": 1
+              },
+              "about_bot": {
+                "خبر": 1,
+                "عنك": 1,
+                "أخبر": 1,
+                "حدث": 1,
+                "اشرح": 1,
+                "لي": 1,
+                "حكيل": 1,
+                "ليش": 1,
+                "بوت": 1,
+                "موجود": 1,
+                "لشو": 1,
+                "هالبو": 1,
+                "عامل": 1,
+                "عن": 1,
+                "اوصفل": 1,
+                "نفس": 1,
+                "صف": 1,
+                "صفل": 1,
+                "شو": 1,
+                "فايد": 1,
+                "منك": 1,
+                "من": 1,
+                "رح": 1,
+                "استفيد": 1
+              },
+              "age": {
+                "قد": 1,
+                "عمر": 1,
+                "بوت": 1,
+                "صرلو": 1,
+                "منشأ": 1,
+                "من": 1,
+                "ايم": 1,
+                "معمول": 1,
+                "شغال": 1,
+                "منذ": 1,
+                "كم": 1,
+                "الوت": 1,
+                "يعمل": 1,
+                "شو": 1,
+                "حابب": 1,
+                "اعرف": 1,
+                "متي": 1,
+                "تم": 1,
+                "انشاء": 1,
+                "تأنشأ": 1,
+                "عملت": 1,
+                "قمتم": 1,
+                "تشغيل": 1,
+                "ما": 1
+              },
+              "bad": {
+                "هالبو": 1,
+                "كتير": 1,
+                "غب": 1,
+                "شو": 1,
+                "بطئ": 1,
+                "لي": 1,
+                "هيك": 1,
+                "بوت": 1,
+                "ما": 1,
+                "حبي": 1,
+                "بهو": 1,
+                "منيح": 1,
+                "انت": 1,
+                "سيئ": 1,
+                "جدا": 1,
+                "روح": 1,
+                "عنا": 1,
+                "ولو": 1,
+                "اسوء": 1,
+                "شوف": 1,
+                "حيات": 1,
+                "استجاب": 1,
+                "طيئ": 1,
+                "يع": 1,
+                "تفه": 1,
+                "تفوو": 1,
+                "روحو": 1,
+                "حسنو": 1,
+                "تبع": 1,
+                "زبال": 1,
+                "الرد": 1,
+                "بضح": 1,
+                "بخز": 1,
+                "طورو": 1,
+                "حال": 1,
+                "انقلع": 1,
+                "شغل": 1,
+                "غير": 1,
+                "جيد": 1,
+                "الله": 1,
+                "لا": 1,
+                "يوفق": 1,
+                "سامح": 1,
+                "مفيد": 1,
+                "داع": 1,
+                "مثمر": 1
+              },
+              "master": {
+                "مين": 1,
+                "مدير": 1,
+                "بوت": 1,
+                "من": 1,
+                "معلم": 1,
+                "اصحاب": 1,
+                "كام": 1,
+                "شو": 1,
+                "اسم": 1,
+                "ما": 1,
+                "اسماء": 1,
+                "مدراء": 1,
+                "بوس": 1,
+                "مال": 1,
+                "صاحب": 1,
+                "لمين": 1,
+                "صنع": 1,
+                "ال": 1,
+                "انشأ": 1,
+                "مبرمج": 1,
+                "رمج": 1,
+                "صاحاب": 1,
+                "مشروع": 1,
+                "هالبو": 1
+              },
+              "help": {
+                "فيك": 1,
+                "تساعد": 1,
+                "بد": 1,
+                "مساعد": 1,
+                "خيو": 1,
+                "هل": 1,
+                "يمك": 1,
+                "مساعدت": 1,
+                "تقديم": 1,
+                "سماعد": 1,
+                "لي": 1,
+                "ياك": 1,
+                "شغل": 1,
+                "تخدم": 1,
+                "ساعد": 1,
+                "اسعف": 1,
+                "هيلب": 1,
+                "مي": 1,
+                "قد": 1,
+                "كم": 1,
+                "خدم": 1,
+                "فين": 1,
+                "عذب": 1
+              },
+              "truth": {
+                "اكيد": 1,
+                "هالمعلوما": 1,
+                "صح": 1,
+                "صحيح": 1,
+                "يا": 1,
+                "تري": 1,
+                "انت": 1,
+                "عم": 1,
+                "تحك": 1,
+                "حقيق": 1,
+                "شو": 1,
+                "مصداق": 1,
+                "كلام": 1,
+                "هل": 1,
+                "معلوم": 1,
+                "ام": 1,
+                "لا": 1
+              },
+              "sorry": {
+                "انا": 1,
+                "اسف": 1,
+                "عتذر": 1,
+                "عفو": 1,
+                "كتير": 1,
+                "هاد": 1,
+                "خطئ": 1,
+                "لحظ": 1,
+                "سامح": 1
+              },
+              "bye": {
+                "يلا": 1,
+                "با": 1,
+                "داع": 1,
+                "سلام": 1,
+                "بايا": 1,
+                "مع": 1,
+                "بد": 1,
+                "روح": 1,
+                "نعس": 1,
+                "حاج": 1,
+                "فرق": 1,
+                "تعب": 1,
+                "منحك": 1,
+                "عدين": 1,
+                "كتير": 1,
+                "معصب": 1,
+                "دايق": 1,
+                "خلاق": 1,
+                "مالل": 1,
+                "طاق": 1,
+                "كرهان": 1,
+                "حال": 1
+              }
+            },
+            "featuresToIntent": {
+              "مرحب": [
+                "welcome"
+              ],
+              "كيف": [
+                "welcome"
+              ],
+              "شلون": [
+                "welcome"
+              ],
+              "حبيب": [
+                "welcome"
+              ],
+              "شو": [
+                "welcome",
+                "job",
+                "about_bot",
+                "age",
+                "bad",
+                "master",
+                "truth"
+              ],
+              "أخبار": [
+                "welcome"
+              ],
+              "حال": [
+                "welcome",
+                "bad",
+                "bye"
+              ],
+              "غال": [
+                "welcome"
+              ],
+              "اخ": [
+                "welcome"
+              ],
+              "ها": [
+                "welcome"
+              ],
+              "سلاما": [
+                "welcome"
+              ],
+              "ما": [
+                "welcome",
+                "job",
+                "age",
+                "bad",
+                "master"
+              ],
+              "اخبار": [
+                "welcome"
+              ],
+              "هايا": [
+                "welcome"
+              ],
+              "هلو": [
+                "welcome"
+              ],
+              "الوو": [
+                "welcome"
+              ],
+              "مراحب": [
+                "welcome"
+              ],
+              "شالوم": [
+                "welcome"
+              ],
+              "حابب": [
+                "welcome",
+                "age"
+              ],
+              "حكي": [
+                "welcome"
+              ],
+              "سلام": [
+                "welcome",
+                "bye"
+              ],
+              "علي": [
+                "welcome"
+              ],
+              "ماذ": [
+                "job"
+              ],
+              "تقوم": [
+                "job"
+              ],
+              "به": [
+                "job"
+              ],
+              "عمل": [
+                "job"
+              ],
+              "تعمل": [
+                "job"
+              ],
+              "تشتغل": [
+                "job"
+              ],
+              "هدف": [
+                "job"
+              ],
+              "منك": [
+                "job",
+                "about_bot"
+              ],
+              "مهم": [
+                "job"
+              ],
+              "الت": [
+                "job"
+              ],
+              "تقدم": [
+                "job"
+              ],
+              "خدم": [
+                "job",
+                "help"
+              ],
+              "مقدم": [
+                "job"
+              ],
+              "لدي": [
+                "job"
+              ],
+              "متوفر": [
+                "job"
+              ],
+              "ليش": [
+                "job",
+                "about_bot"
+              ],
+              "بوت": [
+                "job",
+                "about_bot",
+                "age",
+                "bad",
+                "master"
+              ],
+              "موجود": [
+                "job",
+                "about_bot"
+              ],
+              "من": [
+                "job",
+                "about_bot",
+                "age",
+                "master"
+              ],
+              "خبر": [
+                "about_bot"
+              ],
+              "عنك": [
+                "about_bot"
+              ],
+              "أخبر": [
+                "about_bot"
+              ],
+              "حدث": [
+                "about_bot"
+              ],
+              "اشرح": [
+                "about_bot"
+              ],
+              "لي": [
+                "about_bot",
+                "bad",
+                "help"
+              ],
+              "حكيل": [
+                "about_bot"
+              ],
+              "لشو": [
+                "about_bot"
+              ],
+              "هالبو": [
+                "about_bot",
+                "bad",
+                "master"
+              ],
+              "عامل": [
+                "about_bot"
+              ],
+              "عن": [
+                "about_bot"
+              ],
+              "اوصفل": [
+                "about_bot"
+              ],
+              "نفس": [
+                "about_bot"
+              ],
+              "صف": [
+                "about_bot"
+              ],
+              "صفل": [
+                "about_bot"
+              ],
+              "فايد": [
+                "about_bot"
+              ],
+              "رح": [
+                "about_bot"
+              ],
+              "استفيد": [
+                "about_bot"
+              ],
+              "قد": [
+                "age",
+                "help"
+              ],
+              "عمر": [
+                "age"
+              ],
+              "صرلو": [
+                "age"
+              ],
+              "منشأ": [
+                "age"
+              ],
+              "ايم": [
+                "age"
+              ],
+              "معمول": [
+                "age"
+              ],
+              "شغال": [
+                "age"
+              ],
+              "منذ": [
+                "age"
+              ],
+              "كم": [
+                "age",
+                "help"
+              ],
+              "الوت": [
+                "age"
+              ],
+              "يعمل": [
+                "age"
+              ],
+              "اعرف": [
+                "age"
+              ],
+              "متي": [
+                "age"
+              ],
+              "تم": [
+                "age"
+              ],
+              "انشاء": [
+                "age"
+              ],
+              "تأنشأ": [
+                "age"
+              ],
+              "عملت": [
+                "age"
+              ],
+              "قمتم": [
+                "age"
+              ],
+              "تشغيل": [
+                "age"
+              ],
+              "كتير": [
+                "bad",
+                "sorry",
+                "bye"
+              ],
+              "غب": [
+                "bad"
+              ],
+              "بطئ": [
+                "bad"
+              ],
+              "هيك": [
+                "bad"
+              ],
+              "حبي": [
+                "bad"
+              ],
+              "بهو": [
+                "bad"
+              ],
+              "منيح": [
+                "bad"
+              ],
+              "انت": [
+                "bad",
+                "truth"
+              ],
+              "سيئ": [
+                "bad"
+              ],
+              "جدا": [
+                "bad"
+              ],
+              "روح": [
+                "bad",
+                "bye"
+              ],
+              "عنا": [
+                "bad"
+              ],
+              "ولو": [
+                "bad"
+              ],
+              "اسوء": [
+                "bad"
+              ],
+              "شوف": [
+                "bad"
+              ],
+              "حيات": [
+                "bad"
+              ],
+              "استجاب": [
+                "bad"
+              ],
+              "طيئ": [
+                "bad"
+              ],
+              "يع": [
+                "bad"
+              ],
+              "تفه": [
+                "bad"
+              ],
+              "تفوو": [
+                "bad"
+              ],
+              "روحو": [
+                "bad"
+              ],
+              "حسنو": [
+                "bad"
+              ],
+              "تبع": [
+                "bad"
+              ],
+              "زبال": [
+                "bad"
+              ],
+              "الرد": [
+                "bad"
+              ],
+              "بضح": [
+                "bad"
+              ],
+              "بخز": [
+                "bad"
+              ],
+              "طورو": [
+                "bad"
+              ],
+              "انقلع": [
+                "bad"
+              ],
+              "شغل": [
+                "bad",
+                "help"
+              ],
+              "غير": [
+                "bad"
+              ],
+              "جيد": [
+                "bad"
+              ],
+              "الله": [
+                "bad"
+              ],
+              "لا": [
+                "bad",
+                "truth"
+              ],
+              "يوفق": [
+                "bad"
+              ],
+              "سامح": [
+                "bad",
+                "sorry"
+              ],
+              "مفيد": [
+                "bad"
+              ],
+              "داع": [
+                "bad",
+                "bye"
+              ],
+              "مثمر": [
+                "bad"
+              ],
+              "مين": [
+                "master"
+              ],
+              "مدير": [
+                "master"
+              ],
+              "معلم": [
+                "master"
+              ],
+              "اصحاب": [
+                "master"
+              ],
+              "كام": [
+                "master"
+              ],
+              "اسم": [
+                "master"
+              ],
+              "اسماء": [
+                "master"
+              ],
+              "مدراء": [
+                "master"
+              ],
+              "بوس": [
+                "master"
+              ],
+              "مال": [
+                "master"
+              ],
+              "صاحب": [
+                "master"
+              ],
+              "لمين": [
+                "master"
+              ],
+              "صنع": [
+                "master"
+              ],
+              "ال": [
+                "master"
+              ],
+              "انشأ": [
+                "master"
+              ],
+              "مبرمج": [
+                "master"
+              ],
+              "رمج": [
+                "master"
+              ],
+              "صاحاب": [
+                "master"
+              ],
+              "مشروع": [
+                "master"
+              ],
+              "فيك": [
+                "help"
+              ],
+              "تساعد": [
+                "help"
+              ],
+              "بد": [
+                "help",
+                "bye"
+              ],
+              "مساعد": [
+                "help"
+              ],
+              "خيو": [
+                "help"
+              ],
+              "هل": [
+                "help",
+                "truth"
+              ],
+              "يمك": [
+                "help"
+              ],
+              "مساعدت": [
+                "help"
+              ],
+              "تقديم": [
+                "help"
+              ],
+              "سماعد": [
+                "help"
+              ],
+              "ياك": [
+                "help"
+              ],
+              "تخدم": [
+                "help"
+              ],
+              "ساعد": [
+                "help"
+              ],
+              "اسعف": [
+                "help"
+              ],
+              "هيلب": [
+                "help"
+              ],
+              "مي": [
+                "help"
+              ],
+              "فين": [
+                "help"
+              ],
+              "عذب": [
+                "help"
+              ],
+              "اكيد": [
+                "truth"
+              ],
+              "هالمعلوما": [
+                "truth"
+              ],
+              "صح": [
+                "truth"
+              ],
+              "صحيح": [
+                "truth"
+              ],
+              "يا": [
+                "truth"
+              ],
+              "تري": [
+                "truth"
+              ],
+              "عم": [
+                "truth"
+              ],
+              "تحك": [
+                "truth"
+              ],
+              "حقيق": [
+                "truth"
+              ],
+              "مصداق": [
+                "truth"
+              ],
+              "كلام": [
+                "truth"
+              ],
+              "معلوم": [
+                "truth"
+              ],
+              "ام": [
+                "truth"
+              ],
+              "انا": [
+                "sorry"
+              ],
+              "اسف": [
+                "sorry"
+              ],
+              "عتذر": [
+                "sorry"
+              ],
+              "عفو": [
+                "sorry"
+              ],
+              "هاد": [
+                "sorry"
+              ],
+              "خطئ": [
+                "sorry"
+              ],
+              "لحظ": [
+                "sorry"
+              ],
+              "يلا": [
+                "bye"
+              ],
+              "با": [
+                "bye"
+              ],
+              "بايا": [
+                "bye"
+              ],
+              "مع": [
+                "bye"
+              ],
+              "نعس": [
+                "bye"
+              ],
+              "حاج": [
+                "bye"
+              ],
+              "فرق": [
+                "bye"
+              ],
+              "تعب": [
+                "bye"
+              ],
+              "منحك": [
+                "bye"
+              ],
+              "عدين": [
+                "bye"
+              ],
+              "معصب": [
+                "bye"
+              ],
+              "دايق": [
+                "bye"
+              ],
+              "خلاق": [
+                "bye"
+              ],
+              "مالل": [
+                "bye"
+              ],
+              "طاق": [
+                "bye"
+              ],
+              "كرهان": [
+                "bye"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "ar",
+                "tag": "nlu-ar",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "مرحب",
+                "كيف",
+                "شلون",
+                "حبيب",
+                "شو",
+                "أخبار",
+                "حال",
+                "غال",
+                "اخ",
+                "ها",
+                "سلاما",
+                "ما",
+                "اخبار",
+                "هايا",
+                "هلو",
+                "الوو",
+                "مراحب",
+                "شالوم",
+                "حابب",
+                "حكي",
+                "سلام",
+                "علي",
+                "ماذ",
+                "تقوم",
+                "به",
+                "عمل",
+                "تعمل",
+                "تشتغل",
+                "هدف",
+                "منك",
+                "مهم",
+                "الت",
+                "تقدم",
+                "خدم",
+                "مقدم",
+                "لدي",
+                "متوفر",
+                "ليش",
+                "بوت",
+                "موجود",
+                "من",
+                "خبر",
+                "عنك",
+                "أخبر",
+                "حدث",
+                "اشرح",
+                "لي",
+                "حكيل",
+                "لشو",
+                "هالبو",
+                "عامل",
+                "عن",
+                "اوصفل",
+                "نفس",
+                "صف",
+                "صفل",
+                "فايد",
+                "رح",
+                "استفيد",
+                "قد",
+                "عمر",
+                "صرلو",
+                "منشأ",
+                "ايم",
+                "معمول",
+                "شغال",
+                "منذ",
+                "كم",
+                "الوت",
+                "يعمل",
+                "اعرف",
+                "متي",
+                "تم",
+                "انشاء",
+                "تأنشأ",
+                "عملت",
+                "قمتم",
+                "تشغيل",
+                "كتير",
+                "غب",
+                "بطئ",
+                "هيك",
+                "حبي",
+                "بهو",
+                "منيح",
+                "انت",
+                "سيئ",
+                "جدا",
+                "روح",
+                "عنا",
+                "ولو",
+                "اسوء",
+                "شوف",
+                "حيات",
+                "استجاب",
+                "طيئ",
+                "يع",
+                "تفه",
+                "تفوو",
+                "روحو",
+                "حسنو",
+                "تبع",
+                "زبال",
+                "الرد",
+                "بضح",
+                "بخز",
+                "طورو",
+                "انقلع",
+                "شغل",
+                "غير",
+                "جيد",
+                "الله",
+                "لا",
+                "يوفق",
+                "سامح",
+                "مفيد",
+                "داع",
+                "مثمر",
+                "مين",
+                "مدير",
+                "معلم",
+                "اصحاب",
+                "كام",
+                "اسم",
+                "اسماء",
+                "مدراء",
+                "بوس",
+                "مال",
+                "صاحب",
+                "لمين",
+                "صنع",
+                "ال",
+                "انشأ",
+                "مبرمج",
+                "رمج",
+                "صاحاب",
+                "مشروع",
+                "فيك",
+                "تساعد",
+                "بد",
+                "مساعد",
+                "خيو",
+                "هل",
+                "يمك",
+                "مساعدت",
+                "تقديم",
+                "سماعد",
+                "ياك",
+                "تخدم",
+                "ساعد",
+                "اسعف",
+                "هيلب",
+                "مي",
+                "فين",
+                "عذب",
+                "اكيد",
+                "هالمعلوما",
+                "صح",
+                "صحيح",
+                "يا",
+                "تري",
+                "عم",
+                "تحك",
+                "حقيق",
+                "مصداق",
+                "كلام",
+                "معلوم",
+                "ام",
+                "انا",
+                "اسف",
+                "عتذر",
+                "عفو",
+                "هاد",
+                "خطئ",
+                "لحظ",
+                "يلا",
+                "با",
+                "بايا",
+                "مع",
+                "نعس",
+                "حاج",
+                "فرق",
+                "تعب",
+                "منحك",
+                "عدين",
+                "معصب",
+                "دايق",
+                "خلاق",
+                "مالل",
+                "طاق",
+                "كرهان"
+              ],
+              "intents": [
+                "welcome",
+                "job",
+                "about_bot",
+                "age",
+                "bad",
+                "master",
+                "help",
+                "truth",
+                "sorry",
+                "bye"
+              ],
+              "perceptrons": [
+                [
+                  8.062765121459961,
+                  7.002535820007324,
+                  7.978981971740723,
+                  -0.11661753058433533,
+                  4.506448268890381,
+                  3.6111929416656494,
+                  1.6151496171951294,
+                  -0.16205991804599762,
+                  -0.1582491248846054,
+                  7.984617710113525,
+                  7.9914751052856445,
+                  -0.7921786308288574,
+                  8.672442436218262,
+                  8.006027221679688,
+                  8.012923240661621,
+                  8.019829750061035,
+                  8.026744842529297,
+                  8.033669471740723,
+                  3.1516411304473877,
+                  4.7934346199035645,
+                  -0.0636959969997406,
+                  7.979917526245117,
+                  -3.400519847869873,
+                  -1.609129786491394,
+                  -1.609129786491394,
+                  -5.8220624923706055,
+                  -11.094176292419434,
+                  -10.969401359558105,
+                  -3.8342459201812744,
+                  -7.318788528442383,
+                  -1.187535285949707,
+                  -1.187535285949707,
+                  -10.976390838623047,
+                  -6.056292533874512,
+                  -1.0089874267578125,
+                  -1.0089874267578125,
+                  -5.019015312194824,
+                  -1.5954029560089111,
+                  -7.282850742340088,
+                  -0.9644598364830017,
+                  -4.635117530822754,
+                  -1.324486255645752,
+                  -5.27945613861084,
+                  -1.3204853534698486,
+                  -1.3164902925491333,
+                  -0.385666161775589,
+                  -2.0834362506866455,
+                  -1.3125892877578735,
+                  -1.2531663179397583,
+                  -7.399631023406982,
+                  -0.8029062151908875,
+                  -0.4155847430229187,
+                  -2.628652811050415,
+                  -3.9257631301879883,
+                  -0.6202161312103271,
+                  -0.590340793132782,
+                  -3.768698215484619,
+                  0,
+                  0,
+                  -3.3990976810455322,
+                  -3.7636401653289795,
+                  -3.138502836227417,
+                  -0.13513831794261932,
+                  -1.2210478782653809,
+                  -1.1178902387619019,
+                  -0.03601686283946037,
+                  -1.5029431581497192,
+                  -2.0767693519592285,
+                  -1.5029431581497192,
+                  -1.5029431581497192,
+                  -1.6402316093444824,
+                  -0.4818953573703766,
+                  -0.16909031569957733,
+                  -0.16909031569957733,
+                  -0.1545240581035614,
+                  -0.03632434830069542,
+                  -0.10466281324625015,
+                  -0.10466281324625015,
+                  -2.3529202938079834,
+                  -0.4667465388774872,
+                  -3.625899314880371,
+                  0,
+                  -0.41275903582572937,
+                  -0.2340722531080246,
+                  -0.3619559109210968,
+                  -2.5159599781036377,
+                  -3.7640140056610107,
+                  -1.1296491622924805,
+                  -3.9139370918273926,
+                  -1.464036226272583,
+                  -1.464036226272583,
+                  -0.13130727410316467,
+                  -0.13130727410316467,
+                  -0.0448087640106678,
+                  -2.9092347621917725,
+                  -3.6148910522460938,
+                  -6.42716121673584,
+                  -6.420329570770264,
+                  -6.413486003875732,
+                  -5.464973449707031,
+                  -2.7220029830932617,
+                  0,
+                  -6.4066314697265625,
+                  -0.6724169254302979,
+                  -0.26193973422050476,
+                  -0.23533999919891357,
+                  -2.741776704788208,
+                  -6.487589359283447,
+                  -2.722248077392578,
+                  -4.340374946594238,
+                  0,
+                  -2.212773323059082,
+                  -2.6447136402130127,
+                  -1.6619545221328735,
+                  -6.308359622955322,
+                  -2.171403169631958,
+                  -6.294290542602539,
+                  -2.164646863937378,
+                  -4.743246078491211,
+                  -3.530806303024292,
+                  -1.775215744972229,
+                  0,
+                  -2.9528563022613525,
+                  -0.2456512749195099,
+                  0,
+                  0,
+                  -1.7669553756713867,
+                  0,
+                  0,
+                  0,
+                  -0.5946276187896729,
+                  -1.1944591999053955,
+                  0,
+                  -1.85252046585083,
+                  -0.598660409450531,
+                  -0.9407695531845093,
+                  -0.9407695531845093,
+                  -4.281429290771484,
+                  -2.2266690731048584,
+                  -3.307748317718506,
+                  -3.1547157764434814,
+                  -0.6684253811836243,
+                  -2.09743070602417,
+                  -2.240125894546509,
+                  -2.1823792457580566,
+                  -0.05659152567386627,
+                  -0.05659152567386627,
+                  -0.13242703676223755,
+                  -2.203932046890259,
+                  -6.360057353973389,
+                  -6.353115558624268,
+                  -3.2208802700042725,
+                  -3.2208802700042725,
+                  -3.218550682067871,
+                  -3.218550682067871,
+                  -2.813295602798462,
+                  -3.6277120113372803,
+                  -0.8929874897003174,
+                  -1.1125566959381104,
+                  -0.8800612688064575,
+                  -0.8800612688064575,
+                  -1.3211627006530762,
+                  -1.3211627006530762,
+                  -1.3211627006530762,
+                  -5.455789566040039,
+                  -5.455789566040039,
+                  -0.42892351746559143,
+                  -0.42892351746559143,
+                  -3.5651094913482666,
+                  -4.091277122497559,
+                  -2.8578433990478516,
+                  -6.3234100341796875,
+                  -3.2052502632141113,
+                  -3.2052502632141113,
+                  -2.3425848484039307,
+                  -2.02077579498291,
+                  -6.301331043243408,
+                  -6.2872395515441895,
+                  -6.339733123779297,
+                  -6.277817726135254,
+                  -0.006276326719671488,
+                  -0.09764368832111359,
+                  -6.270740032196045,
+                  -3.180569648742676,
+                  -3.180569648742676,
+                  -6.260156631469727,
+                  -3.1753852367401123,
+                  -3.1753852367401123,
+                  -6.249547958374023,
+                  -2.4264397621154785,
+                  -7.985104560852051,
+                  6.416333875735181
+                ],
+                [
+                  -0.09643834084272385,
+                  -0.09342274814844131,
+                  -0.12139102071523666,
+                  -0.053428586572408676,
+                  5.9512457847595215,
+                  -5.517464637756348,
+                  -5.517375469207764,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5.950878620147705,
+                  -5.515413761138916,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.10157609730958939,
+                  0,
+                  5.953217506408691,
+                  4.383502960205078,
+                  4.383502960205078,
+                  8.770355224609375,
+                  8.768635749816895,
+                  8.76915168762207,
+                  9.272655487060547,
+                  -0.5016060471534729,
+                  0.0009295136551372707,
+                  0.0009295136551372707,
+                  8.767995834350586,
+                  3.9025566577911377,
+                  2.4337456226348877,
+                  2.4337456226348877,
+                  4.867087364196777,
+                  4.273227691650391,
+                  -2.099339246749878,
+                  4.886703968048096,
+                  1.0568759441375732,
+                  -0.6107156276702881,
+                  -2.8003034591674805,
+                  -0.5496773719787598,
+                  -0.4877733588218689,
+                  -0.29630112648010254,
+                  -1.4987289905548096,
+                  -0.8688266277313232,
+                  -0.48155081272125244,
+                  -5.042135715484619,
+                  -0.9139995574951172,
+                  -0.452310174703598,
+                  -0.6571672558784485,
+                  -1.4469997882843018,
+                  -0.330068975687027,
+                  -0.26126861572265625,
+                  -5.63966178894043,
+                  -2.332963705062866,
+                  -2.332963705062866,
+                  -0.7633706331253052,
+                  -3.5060510635375977,
+                  -0.6609228849411011,
+                  -0.054102253168821335,
+                  -0.406586617231369,
+                  -0.406586617231369,
+                  0,
+                  -0.4526171088218689,
+                  -0.4869861900806427,
+                  -0.4526171088218689,
+                  -0.4526171088218689,
+                  0,
+                  -0.0007147839642129838,
+                  -0.0007147839642129838,
+                  -0.0007147839642129838,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.33819082379341125,
+                  -0.08040199428796768,
+                  -1.025198221206665,
+                  0,
+                  -1.3283963203430176,
+                  0,
+                  -1.2179203033447266,
+                  -0.4082266688346863,
+                  -0.6359392404556274,
+                  -0.3429965674877167,
+                  -0.38099074363708496,
+                  -0.38099074363708496,
+                  -0.38099074363708496,
+                  0,
+                  0,
+                  0,
+                  -0.4021120071411133,
+                  -0.6747229695320129,
+                  -0.5921187400817871,
+                  -0.5728944540023804,
+                  -0.5542649626731873,
+                  -0.3560418486595154,
+                  -0.1415925770998001,
+                  0,
+                  -0.5449560880661011,
+                  -0.22879408299922943,
+                  0,
+                  0,
+                  -0.17663291096687317,
+                  -0.7609398365020752,
+                  -0.274721622467041,
+                  -0.5766659379005432,
+                  0,
+                  -0.42651551961898804,
+                  -0.42651551961898804,
+                  -0.21569812297821045,
+                  -0.23106767237186432,
+                  -0.2825416624546051,
+                  -0.12177523225545883,
+                  -0.2538887858390808,
+                  -0.6028868556022644,
+                  -1.4749090671539307,
+                  -0.24012409150600433,
+                  0,
+                  -0.14408397674560547,
+                  -2.3686327934265137,
+                  -1.7271296977996826,
+                  -1.7271296977996826,
+                  -0.14477500319480896,
+                  0,
+                  0,
+                  0,
+                  -0.07402744889259338,
+                  -0.18015854060649872,
+                  0,
+                  -1.0597506761550903,
+                  -0.09207762032747269,
+                  -0.31054171919822693,
+                  -0.31054171919822693,
+                  -0.4105997681617737,
+                  -0.2575090229511261,
+                  -3.5664689540863037,
+                  -0.1319635659456253,
+                  -0.05666482448577881,
+                  -0.19120334088802338,
+                  -0.20727069675922394,
+                  -0.20727069675922394,
+                  0,
+                  0,
+                  -0.01767144910991192,
+                  -0.16410192847251892,
+                  -0.3185864984989166,
+                  -0.30891817808151245,
+                  -0.22340360283851624,
+                  -0.22340360283851624,
+                  -0.1647256463766098,
+                  -0.1647256463766098,
+                  -0.1852271854877472,
+                  -0.24448837339878082,
+                  -0.0697907879948616,
+                  -0.10803593695163727,
+                  -0.06266976147890091,
+                  -0.06266976147890091,
+                  -0.026723889634013176,
+                  -0.026723889634013176,
+                  -0.026723889634013176,
+                  -2.758847236633301,
+                  -2.758847236633301,
+                  0,
+                  0,
+                  -0.16312368214130402,
+                  -0.1543232649564743,
+                  -0.08210983872413635,
+                  -0.13744187355041504,
+                  -0.10381282866001129,
+                  -0.10381282866001129,
+                  -0.07357951253652573,
+                  -0.11636754125356674,
+                  -0.17180421948432922,
+                  -0.12174572795629501,
+                  -0.08013419806957245,
+                  -0.12950396537780762,
+                  -0.012774094939231873,
+                  -0.02745158225297928,
+                  -0.11129400134086609,
+                  -0.08337564766407013,
+                  -0.08337564766407013,
+                  -0.10531304776668549,
+                  -0.07874296605587006,
+                  -0.07874296605587006,
+                  -0.09962165355682373,
+                  0,
+                  0,
+                  -0.4349235414076604
+                ],
+                [
+                  -0.08620338886976242,
+                  -0.09210999310016632,
+                  -0.11619254946708679,
+                  -0.04669661074876785,
+                  0.8664582967758179,
+                  -1.0217307806015015,
+                  -1.0869042873382568,
+                  -0.0035931796301156282,
+                  -0.0023431021254509687,
+                  -0.035740479826927185,
+                  -0.03452232480049133,
+                  -1.8727201223373413,
+                  0,
+                  -0.034282129257917404,
+                  -0.033885158598423004,
+                  -0.03351430967450142,
+                  -0.03327224776148796,
+                  -0.0330810621380806,
+                  -0.711951494216919,
+                  0,
+                  -0.10381142795085907,
+                  -0.00005309433981892653,
+                  -0.018115272745490074,
+                  -0.017039911821484566,
+                  -0.017039911821484566,
+                  0,
+                  -0.9656715989112854,
+                  -0.9613608121871948,
+                  -3.495548963546753,
+                  2.6257777214050293,
+                  -0.17151768505573273,
+                  -0.17151768505573273,
+                  -0.9062835574150085,
+                  -0.4859108030796051,
+                  0,
+                  0,
+                  -0.4282795786857605,
+                  4.12788200378418,
+                  1.8494113683700562,
+                  1.6386668682098389,
+                  0.79729163646698,
+                  4.511731147766113,
+                  10.040303230285645,
+                  4.511751174926758,
+                  4.511724472045898,
+                  0.03904682770371437,
+                  4.473121643066406,
+                  4.514618873596191,
+                  12.07534408569336,
+                  2.2070846557617188,
+                  8.02376651763916,
+                  8.048603057861328,
+                  5.806825160980225,
+                  8.475075721740723,
+                  1.3341143131256104,
+                  1.3340660333633423,
+                  10.789979934692383,
+                  5.386443614959717,
+                  5.386443614959717,
+                  -2.8276286125183105,
+                  -3.876155138015747,
+                  -1.6411336660385132,
+                  -0.9042192697525024,
+                  -3.314138174057007,
+                  -0.9937502145767212,
+                  -1.5282841920852661,
+                  -0.7867428064346313,
+                  -0.7867428064346313,
+                  -0.7867428064346313,
+                  -0.7867428064346313,
+                  -0.711951494216919,
+                  -2.512281656265259,
+                  -0.8276900053024292,
+                  -0.8276900053024292,
+                  -0.8531985878944397,
+                  -0.4658277928829193,
+                  -0.5610975623130798,
+                  -0.5610975623130798,
+                  -1.0855737924575806,
+                  -3.6469650268554688,
+                  -3.3025245666503906,
+                  -2.6917290687561035,
+                  -0.8916956186294556,
+                  -1.8716634511947632,
+                  -0.7514234185218811,
+                  -0.4508678913116455,
+                  -1.125481367111206,
+                  -0.9147066473960876,
+                  -0.5265313386917114,
+                  -0.5233104825019836,
+                  -0.5233104825019836,
+                  -0.9778688549995422,
+                  -0.9778688549995422,
+                  -0.32771024107933044,
+                  -0.5345260500907898,
+                  -0.7532928586006165,
+                  -0.7537844181060791,
+                  -0.7300089001655579,
+                  -0.7069376111030579,
+                  -1.0638649463653564,
+                  -0.8095734119415283,
+                  -0.6637247204780579,
+                  -1.2101854085922241,
+                  -0.17108723521232605,
+                  -2.2299139499664307,
+                  -2.2235066890716553,
+                  -0.19573765993118286,
+                  -0.8071169257164001,
+                  -0.21940475702285767,
+                  -1.3359894752502441,
+                  -0.5383259057998657,
+                  -0.44970887899398804,
+                  -1.1290425062179565,
+                  -0.2234533131122589,
+                  -0.24924881756305695,
+                  -0.5382004380226135,
+                  -0.7451657056808472,
+                  -0.2357664853334427,
+                  -1.5750125646591187,
+                  -2.0729727745056152,
+                  -0.2161833941936493,
+                  -0.29953494668006897,
+                  -0.15919536352157593,
+                  -0.7296160459518433,
+                  -0.0008215961861424148,
+                  -0.0008215961861424148,
+                  -0.1556715965270996,
+                  -0.29932308197021484,
+                  -0.29940253496170044,
+                  -2.2154529094696045,
+                  -2.8449575901031494,
+                  -0.25037315487861633,
+                  -0.04904303699731827,
+                  -1.546243667602539,
+                  -0.08979358524084091,
+                  -0.9362488389015198,
+                  -0.9362488389015198,
+                  -0.30872586369514465,
+                  -0.222942516207695,
+                  -0.3362103998661041,
+                  -0.23769228160381317,
+                  -0.11203232407569885,
+                  -1.2063002586364746,
+                  -1.2063002586364746,
+                  -0.05354078486561775,
+                  -1.1229602098464966,
+                  -1.1229602098464966,
+                  -0.02406713366508484,
+                  -0.10301482677459717,
+                  -0.18843494355678558,
+                  -0.18202325701713562,
+                  -0.14257115125656128,
+                  -0.14257115125656128,
+                  -0.1356857270002365,
+                  -0.1356857270002365,
+                  -0.1710060089826584,
+                  -0.22577829658985138,
+                  -0.06303607672452927,
+                  -0.10021011531352997,
+                  -0.062440402805805206,
+                  -0.062440402805805206,
+                  -0.022822929546236992,
+                  -0.022822929546236992,
+                  -0.022822929546236992,
+                  -0.741025447845459,
+                  -0.741025447845459,
+                  0,
+                  0,
+                  -0.1690179705619812,
+                  -0.1597944051027298,
+                  -0.08274571597576141,
+                  -0.1252354085445404,
+                  -0.0964641273021698,
+                  -0.0964641273021698,
+                  -0.07386352121829987,
+                  -0.1272524893283844,
+                  -0.17664475739002228,
+                  -0.11181361973285675,
+                  -0.07813743501901627,
+                  -0.12298660725355148,
+                  -0.014723735861480236,
+                  -0.028618091717362404,
+                  -0.1010056808590889,
+                  -0.07782434672117233,
+                  -0.07782434672117233,
+                  -0.09497369080781937,
+                  -0.07293804734945297,
+                  -0.07293804734945297,
+                  -0.08928634226322174,
+                  -0.00017221164307557046,
+                  0,
+                  0.0033308875888819864
+                ],
+                [
+                  -0.097139872610569,
+                  -0.0983709841966629,
+                  -0.09692054241895676,
+                  -0.009781948290765285,
+                  0.8583546876907349,
+                  -0.9853435754776001,
+                  -0.9851911664009094,
+                  -0.004340586718171835,
+                  -0.004244716372340918,
+                  -0.09676797688007355,
+                  -0.09662612527608871,
+                  0.8511731028556824,
+                  -1.0304394960403442,
+                  -0.09643036872148514,
+                  -0.09628459066152573,
+                  -0.09613733738660812,
+                  -0.09598863124847412,
+                  -0.09583840519189835,
+                  0.004211060702800751,
+                  -0.6296770572662354,
+                  -0.06700614094734192,
+                  -0.0308174230158329,
+                  -0.031508032232522964,
+                  -0.031508032232522964,
+                  -0.031508032232522964,
+                  -1.0253804922103882,
+                  -0.9804518222808838,
+                  -0.9798769354820251,
+                  -1.3749653100967407,
+                  -0.00009786427835933864,
+                  -0.10673253983259201,
+                  -0.10673253983259201,
+                  -0.9793290495872498,
+                  -0.6155417561531067,
+                  -0.20572666823863983,
+                  -0.20572666823863983,
+                  -0.4098055362701416,
+                  -0.7608147859573364,
+                  -0.25536611676216125,
+                  -0.7608147859573364,
+                  -0.3054048717021942,
+                  -0.02373138815164566,
+                  -0.07100330293178558,
+                  -0.02363690361380577,
+                  -0.02354121394455433,
+                  0,
+                  -1.4971716403961182,
+                  -0.6428667902946472,
+                  0,
+                  -1.7449966669082642,
+                  0,
+                  -0.6428667902946472,
+                  -0.04695722088217735,
+                  -0.04695722088217735,
+                  0,
+                  0,
+                  -1.7129552364349365,
+                  -0.8052034378051758,
+                  -0.8052034378051758,
+                  0.9293994307518005,
+                  13.60887622833252,
+                  13.033333778381348,
+                  0.48005133867263794,
+                  10.916292190551758,
+                  3.5986881256103516,
+                  3.812405586242676,
+                  3.8789167404174805,
+                  2.548588275909424,
+                  3.8789167404174805,
+                  3.8789167404174805,
+                  0.6426946520805359,
+                  9.621971130371094,
+                  2.4071264266967773,
+                  2.4071264266967773,
+                  4.807302951812744,
+                  3.5048277378082275,
+                  2.406148672103882,
+                  2.406148672103882,
+                  -0.5834977626800537,
+                  -1.9986474514007568,
+                  -0.5180649161338806,
+                  -1.4971716403961182,
+                  -0.26647740602493286,
+                  -2.387244701385498,
+                  -0.19054952263832092,
+                  -0.25297701358795166,
+                  -1.9041697978973389,
+                  -1.8515864610671997,
+                  -0.44512560963630676,
+                  -0.44512560963630676,
+                  -0.44512560963630676,
+                  -2.0448808670043945,
+                  -2.0448808670043945,
+                  -0.6784448027610779,
+                  -0.4193597435951233,
+                  -0.5735631585121155,
+                  -0.5398281216621399,
+                  -0.5208653211593628,
+                  -0.5025535821914673,
+                  -1.5096582174301147,
+                  -1.3805252313613892,
+                  -1.307849407196045,
+                  -1.492547869682312,
+                  -0.11446793377399445,
+                  -0.009683659300208092,
+                  -0.003510420210659504,
+                  -0.08293164521455765,
+                  -0.6054476499557495,
+                  -0.02355491928756237,
+                  -1.951395034790039,
+                  -0.9984206557273865,
+                  -0.24351362884044647,
+                  -1.2651634216308594,
+                  -0.11643054336309433,
+                  -0.10414499789476395,
+                  -0.8247895240783691,
+                  -0.9988807439804077,
+                  -0.007644273806363344,
+                  -1.9866937398910522,
+                  -1.8238495588302612,
+                  -0.0247881468385458,
+                  -0.6382256150245667,
+                  -0.0068364571779966354,
+                  -0.8578652739524841,
+                  -0.8455343246459961,
+                  -0.8455343246459961,
+                  0,
+                  -0.37877970933914185,
+                  -0.32079797983169556,
+                  -1.3417105674743652,
+                  -1.7961719036102295,
+                  -0.04242534935474396,
+                  -0.04242534935474396,
+                  -0.8430981040000916,
+                  0,
+                  -0.5464396476745605,
+                  -0.5464396476745605,
+                  -3.310363292694092,
+                  -1.560365080833435,
+                  -0.05509372055530548,
+                  -0.05509372055530548,
+                  -0.025886550545692444,
+                  0,
+                  -1.3255336284637451,
+                  -1.3255336284637451,
+                  0,
+                  0,
+                  0,
+                  -1.7036795616149902,
+                  -0.09891002625226974,
+                  -0.09879528731107712,
+                  -0.05003903806209564,
+                  -0.05003903806209564,
+                  -0.050018250942230225,
+                  -0.050018250942230225,
+                  -0.04357738792896271,
+                  -0.05649251490831375,
+                  -0.007478197105228901,
+                  -0.018512193113565445,
+                  -0.012881915085017681,
+                  -0.012881915085017681,
+                  0,
+                  0,
+                  0,
+                  -0.49439537525177,
+                  -0.49439537525177,
+                  0,
+                  0,
+                  -0.055448051542043686,
+                  -0.055353887379169464,
+                  -0.044500138610601425,
+                  -0.09846889227628708,
+                  -0.049901627004146576,
+                  -0.049901627004146576,
+                  -0.04440595582127571,
+                  -0.01676422357559204,
+                  -0.09824373573064804,
+                  -0.09812095016241074,
+                  -0.03303983807563782,
+                  -0.09797147661447525,
+                  -0.0018575341673567891,
+                  -0.004165041726082563,
+                  -0.09784582257270813,
+                  -0.04963371530175209,
+                  -0.04963371530175209,
+                  -0.09766323119401932,
+                  -0.049554843455553055,
+                  -0.049554843455553055,
+                  -0.09747780114412308,
+                  0,
+                  0,
+                  0.09995660661022034
+                ],
+                [
+                  -1.7708966732025146,
+                  -2.189411163330078,
+                  -1.8567266464233398,
+                  -0.44702109694480896,
+                  -2.088833808898926,
+                  -0.8409427404403687,
+                  1.195132851600647,
+                  -0.292669415473938,
+                  -0.2675669491291046,
+                  -1.7130151987075806,
+                  -1.7013957500457764,
+                  -0.28816261887550354,
+                  -1.4347947835922241,
+                  -1.6799794435501099,
+                  -1.6694915294647217,
+                  -1.658297061920166,
+                  -1.6488423347473145,
+                  -1.6396875381469727,
+                  -1.0928159952163696,
+                  -0.6394592523574829,
+                  -1.4830286502838135,
+                  -0.24956849217414856,
+                  -1.036496639251709,
+                  -0.3495733439922333,
+                  -0.3495733439922333,
+                  -1.2357522249221802,
+                  -0.6157008409500122,
+                  -0.3335680067539215,
+                  -0.1787843555212021,
+                  -0.1787843555212021,
+                  -0.40054619312286377,
+                  -0.40054619312286377,
+                  -0.6447145342826843,
+                  -1.0819385051727295,
+                  -0.1996595710515976,
+                  -0.1996595710515976,
+                  -0.26653701066970825,
+                  -4.539413928985596,
+                  1.0681360960006714,
+                  -0.7776856422424316,
+                  -4.539626598358154,
+                  -0.21269896626472473,
+                  -1.4725682735443115,
+                  -0.20291540026664734,
+                  -0.19552473723888397,
+                  -0.858879804611206,
+                  1.4735947847366333,
+                  -1.6181671619415283,
+                  -9.206833839416504,
+                  8.400872230529785,
+                  -4.710826873779297,
+                  -1.6181671619415283,
+                  -0.12470554560422897,
+                  -1.5943344831466675,
+                  -0.7365432977676392,
+                  -0.7311593890190125,
+                  0,
+                  0,
+                  0,
+                  -1.8428131341934204,
+                  -2.739696979522705,
+                  -0.7311040759086609,
+                  -0.7209554314613342,
+                  -1.6118180751800537,
+                  0,
+                  0,
+                  -0.2653235197067261,
+                  -0.8196781277656555,
+                  -0.2653235197067261,
+                  -0.2653235197067261,
+                  -0.4390160143375397,
+                  -2.2316954135894775,
+                  -0.6667697429656982,
+                  -0.6667697429656982,
+                  -1.0075623989105225,
+                  -1.6118180751800537,
+                  -0.5303674936294556,
+                  -0.5303674936294556,
+                  -0.05922152101993561,
+                  5.305125713348389,
+                  7.309311866760254,
+                  5.746071815490723,
+                  5.509422302246094,
+                  12.471318244934082,
+                  5.505298137664795,
+                  1.1984702348709106,
+                  8.889951705932617,
+                  3.5792064666748047,
+                  1.652948260307312,
+                  5.977249622344971,
+                  5.977249622344971,
+                  6.250171184539795,
+                  6.250171184539795,
+                  0.04043922945857048,
+                  4.519716739654541,
+                  9.08668327331543,
+                  13.573718070983887,
+                  13.571913719177246,
+                  13.570097923278809,
+                  8.282472610473633,
+                  4.172796249389648,
+                  -1.0879541635513306,
+                  13.586316108703613,
+                  4.565945625305176,
+                  5.192112445831299,
+                  5.190744400024414,
+                  4.107947826385498,
+                  13.58553695678711,
+                  4.71497917175293,
+                  9.794291496276855,
+                  2.6886818408966064,
+                  2.406660795211792,
+                  13.034926414489746,
+                  -1.8225970268249512,
+                  -1.8211612701416016,
+                  3.280024290084839,
+                  -0.5939937829971313,
+                  3.8147659301757812,
+                  -7.464020729064941,
+                  -6.313480377197266,
+                  -0.8583616018295288,
+                  -1.711197018623352,
+                  -0.7542080283164978,
+                  -4.313821792602539,
+                  -3.434614896774292,
+                  -3.434614896774292,
+                  -0.42838695645332336,
+                  -0.9612478613853455,
+                  -0.7438220381736755,
+                  -9.633111000061035,
+                  -2.06016206741333,
+                  -0.27364352345466614,
+                  -0.122652567923069,
+                  -2.3480024337768555,
+                  -0.05054423585534096,
+                  -0.6478056311607361,
+                  -0.6478056311607361,
+                  -2.663933753967285,
+                  -1.8917511701583862,
+                  -3.9202399253845215,
+                  -1.5890365839004517,
+                  -0.7247980833053589,
+                  -4.566943168640137,
+                  -2.220655679702759,
+                  -1.2354621887207031,
+                  -0.8880196809768677,
+                  -0.8880196809768677,
+                  -0.5105493068695068,
+                  -1.3180594444274902,
+                  -2.4813666343688965,
+                  -2.438953399658203,
+                  -1.6043511629104614,
+                  -1.6043511629104614,
+                  -1.5385615825653076,
+                  -1.5385615825653076,
+                  -1.5409562587738037,
+                  -1.9039361476898193,
+                  -3.419373035430908,
+                  -0.8327178955078125,
+                  -0.9154735207557678,
+                  -0.9154735207557678,
+                  -1.6023731231689453,
+                  -1.6023731231689453,
+                  -1.6023731231689453,
+                  -1.3122471570968628,
+                  -1.3122471570968628,
+                  -2.8632781505584717,
+                  -2.8632781505584717,
+                  -1.827751874923706,
+                  -3.2673964500427246,
+                  -1.1533528566360474,
+                  -2.2070980072021484,
+                  -1.3481638431549072,
+                  -1.3481638431549072,
+                  -0.4609988331794739,
+                  -1.2164969444274902,
+                  -2.2246744632720947,
+                  -1.936859369277954,
+                  -1.0110585689544678,
+                  -1.9358479976654053,
+                  -0.11066543310880661,
+                  -0.275206983089447,
+                  -1.8734726905822754,
+                  -1.0941656827926636,
+                  -1.0941656827926636,
+                  -2.5962605476379395,
+                  -1.0610558986663818,
+                  -1.0610558986663818,
+                  -1.8237667083740234,
+                  -3.2063686847686768,
+                  -2.189725399017334,
+                  0.6827108210726252
+                ],
+                [
+                  -0.49930885434150696,
+                  -0.604550302028656,
+                  -0.6690706610679626,
+                  -0.17403490841388702,
+                  -2.364227771759033,
+                  -0.0953705906867981,
+                  -0.4439249634742737,
+                  -0.13012349605560303,
+                  -0.11461189389228821,
+                  -0.48000290989875793,
+                  -0.47876542806625366,
+                  -2.412961721420288,
+                  -0.631033182144165,
+                  -0.47767192125320435,
+                  -0.47732043266296387,
+                  -0.47690877318382263,
+                  -0.47654271125793457,
+                  -0.4761025607585907,
+                  -0.4225831925868988,
+                  -0.16602370142936707,
+                  -0.5501092076301575,
+                  -0.04528553783893585,
+                  -0.28567275404930115,
+                  -0.1411311775445938,
+                  -0.1411311775445938,
+                  -0.5805836915969849,
+                  -0.20475970208644867,
+                  -0.02822711318731308,
+                  -6.9794392585754395,
+                  -0.021476885303854942,
+                  -0.3324269652366638,
+                  -0.3324269652366638,
+                  -0.3668860197067261,
+                  -0.7538881897926331,
+                  -0.2114245444536209,
+                  -0.2114245444536209,
+                  -0.21498580276966095,
+                  -1.8746105432510376,
+                  0.9901549816131592,
+                  -1.8746105432510376,
+                  8.208070755004883,
+                  -0.11449521780014038,
+                  -0.34196874499320984,
+                  -0.11391596496105194,
+                  -0.11349684000015259,
+                  0,
+                  -1.4270554780960083,
+                  -1.2707924842834473,
+                  -1.324436902999878,
+                  1.0232046842575073,
+                  -1.0087389945983887,
+                  -1.2707924842834473,
+                  -0.22760672867298126,
+                  -0.22760672867298126,
+                  0,
+                  0,
+                  -7.02943754196167,
+                  -3.5144145488739014,
+                  -3.5144145488739014,
+                  -1.2107285261154175,
+                  -1.0814237594604492,
+                  -0.3755643367767334,
+                  -0.3755643367767334,
+                  -5.950948715209961,
+                  -2.450561285018921,
+                  -3.4757778644561768,
+                  -0.02775271236896515,
+                  -0.3479168713092804,
+                  -0.02775271236896515,
+                  -0.02775271236896515,
+                  -0.24780917167663574,
+                  -1.0970200300216675,
+                  -0.34792858362197876,
+                  -0.34792858362197876,
+                  -0.45600759983062744,
+                  -0.0161745585501194,
+                  -0.2700958847999573,
+                  -0.2700958847999573,
+                  -0.9620116949081421,
+                  -0.41383668780326843,
+                  0,
+                  0,
+                  -0.7268455028533936,
+                  -1.5115957260131836,
+                  -0.6199356317520142,
+                  -0.5051357746124268,
+                  -0.7558450102806091,
+                  -0.7558450102806091,
+                  -0.3895699381828308,
+                  -0.02045051008462906,
+                  -0.02045051008462906,
+                  -0.7550998330116272,
+                  -0.7550998330116272,
+                  -0.1908259093761444,
+                  -0.2147512137889862,
+                  -0.2147512137889862,
+                  -0.4238678216934204,
+                  -0.42325183749198914,
+                  -0.4226256310939789,
+                  -0.753875195980072,
+                  -0.753875195980072,
+                  -0.7531912922859192,
+                  -0.7531912922859192,
+                  0,
+                  -1.3115246295928955,
+                  -1.311935544013977,
+                  0,
+                  -0.4239664077758789,
+                  -0.17306207120418549,
+                  -1.0023472309112549,
+                  -0.5017887353897095,
+                  0,
+                  -0.5459498167037964,
+                  0,
+                  -0.6321950554847717,
+                  -0.5005255937576294,
+                  -0.9562215209007263,
+                  0,
+                  7.71510124206543,
+                  5.708273887634277,
+                  6.390383720397949,
+                  5.403073787689209,
+                  8.360936164855957,
+                  9.75501823425293,
+                  7.756899833679199,
+                  7.756899833679199,
+                  6.393082618713379,
+                  5.404596328735352,
+                  5.387087821960449,
+                  13.064099311828613,
+                  5.092794895172119,
+                  1.375008463859558,
+                  3.9641432762145996,
+                  5.806506156921387,
+                  4.950428485870361,
+                  2.9366512298583984,
+                  2.9366512298583984,
+                  -1.5638691186904907,
+                  -1.1389080286026,
+                  -1.6430439949035645,
+                  -0.9298238754272461,
+                  -0.4077967703342438,
+                  -1.0904773473739624,
+                  -1.1908236742019653,
+                  -0.7429412007331848,
+                  -0.30794557929039,
+                  -0.30794557929039,
+                  -0.17306207120418549,
+                  -0.5870049595832825,
+                  -0.8457508683204651,
+                  -0.8427389860153198,
+                  -0.6018521785736084,
+                  -0.6018521785736084,
+                  -0.5929458737373352,
+                  -0.5929458737373352,
+                  -0.7984325289726257,
+                  -1.0723599195480347,
+                  -0.48522984981536865,
+                  -0.48483675718307495,
+                  -0.4617425501346588,
+                  -0.4617425501346588,
+                  -0.5051357746124268,
+                  -0.5051357746124268,
+                  -0.5051357746124268,
+                  -0.33000871539115906,
+                  -0.33000871539115906,
+                  -0.14211609959602356,
+                  -0.14211609959602356,
+                  -0.8018829226493835,
+                  -0.9844809770584106,
+                  -0.41232720017433167,
+                  -0.6820240020751953,
+                  -0.49070701003074646,
+                  -0.49070701003074646,
+                  -0.26582396030426025,
+                  -0.6343141794204712,
+                  -0.8709573745727539,
+                  -0.5928957462310791,
+                  -0.3398230969905853,
+                  -0.6304842829704285,
+                  -0.06650572270154953,
+                  -0.12246999889612198,
+                  -0.5573450326919556,
+                  -0.3798913359642029,
+                  -0.3798913359642029,
+                  -0.616640567779541,
+                  -0.3556758165359497,
+                  -0.3556758165359497,
+                  -0.5192204117774963,
+                  -0.3389261066913605,
+                  -0.26650646328926086,
+                  0.20658518172582352
+                ],
+                [
+                  -1.1281089782714844,
+                  -1.2311605215072632,
+                  -1.2506675720214844,
+                  -0.29806822538375854,
+                  -3.090355396270752,
+                  -0.16351021826267242,
+                  -0.8734715580940247,
+                  -0.24078378081321716,
+                  -0.2134810835123062,
+                  -1.1054672002792358,
+                  -1.0964337587356567,
+                  -3.1374640464782715,
+                  -0.23109684884548187,
+                  -1.0852659940719604,
+                  -1.0774339437484741,
+                  -1.0700581073760986,
+                  -1.0630773305892944,
+                  -1.056434988975525,
+                  -0.6102486848831177,
+                  -0.5210739374160767,
+                  -1.0790493488311768,
+                  -0.08123521506786346,
+                  -0.7788219451904297,
+                  -0.21488414704799652,
+                  -0.21488414704799652,
+                  -0.10500816255807877,
+                  -0.313918799161911,
+                  -0.005108513403683901,
+                  -0.009750810451805592,
+                  -0.0009226357797160745,
+                  -0.059756435453891754,
+                  -0.059756435453891754,
+                  -0.3149097263813019,
+                  5.685703277587891,
+                  -1.5086853504180908,
+                  -1.5086853504180908,
+                  -3.063321828842163,
+                  -0.16787497699260712,
+                  -1.1540113687515259,
+                  -0.06022625416517258,
+                  -0.7235025763511658,
+                  -0.13210664689540863,
+                  -0.9185872077941895,
+                  -0.12518495321273804,
+                  -0.11904285848140717,
+                  -0.4452116787433624,
+                  0.506976842880249,
+                  -0.10954635590314865,
+                  -0.31383800506591797,
+                  -0.8552787899971008,
+                  -0.3503534197807312,
+                  -0.017593415454030037,
+                  -0.1019955575466156,
+                  -0.9382157921791077,
+                  -0.42574918270111084,
+                  -0.4014623165130615,
+                  0,
+                  0,
+                  0,
+                  0.00437735253944993,
+                  -0.3607291281223297,
+                  -1.0648384094238281,
+                  -0.1809205561876297,
+                  -0.2368343472480774,
+                  -0.2368343472480774,
+                  0,
+                  -0.9754483699798584,
+                  2.2936325073242188,
+                  -0.9754483699798584,
+                  -0.9754483699798584,
+                  -0.059978216886520386,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.9346351623535156,
+                  -0.09294011443853378,
+                  0,
+                  -0.09294011443853378,
+                  0,
+                  0,
+                  0,
+                  -0.9723652601242065,
+                  -1.158931016921997,
+                  0,
+                  -8.716025352478027,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.5070506930351257,
+                  -0.5070506930351257,
+                  -0.9518170356750488,
+                  -0.9459595680236816,
+                  -0.9410266876220703,
+                  -0.07636021822690964,
+                  -0.03649120405316353,
+                  0,
+                  -0.9361913204193115,
+                  0,
+                  -0.1656786948442459,
+                  -0.15894381701946259,
+                  -0.039660967886447906,
+                  -0.9737371802330017,
+                  -0.23113206028938293,
+                  -0.654940664768219,
+                  0,
+                  0,
+                  -1.2542539834976196,
+                  0,
+                  -1.4207035303115845,
+                  -0.3309681713581085,
+                  -1.375907301902771,
+                  -0.3233945369720459,
+                  -0.7151775360107422,
+                  -0.5292739868164062,
+                  -0.269901305437088,
+                  0,
+                  -0.445701539516449,
+                  0,
+                  0,
+                  0,
+                  -0.26089799404144287,
+                  0,
+                  0,
+                  -0.11707568168640137,
+                  -0.08827026188373566,
+                  -0.18375736474990845,
+                  0,
+                  -0.2497718334197998,
+                  -0.09520445764064789,
+                  -0.1329028308391571,
+                  -0.1329028308391571,
+                  9.068207740783691,
+                  5.000393390655518,
+                  8.375781059265137,
+                  5.687971115112305,
+                  0.016331933438777924,
+                  2.302673578262329,
+                  6.961424350738525,
+                  4.810204982757568,
+                  2.150954008102417,
+                  2.150954008102417,
+                  0.9312486052513123,
+                  4.99879789352417,
+                  14.042563438415527,
+                  14.041150093078613,
+                  7.029088497161865,
+                  7.029088497161865,
+                  7.028397083282471,
+                  7.028397083282471,
+                  -1.5952764749526978,
+                  -2.1110966205596924,
+                  -1.9387568235397339,
+                  -0.929502546787262,
+                  -0.8848146200180054,
+                  -0.8848146200180054,
+                  -0.9723652601242065,
+                  -0.9723652601242065,
+                  -0.9723652601242065,
+                  -0.7725473642349243,
+                  -0.7725473642349243,
+                  -1.2542539834976196,
+                  -1.2542539834976196,
+                  -1.507081389427185,
+                  -1.8571792840957642,
+                  -0.7860666513442993,
+                  -1.4788838624954224,
+                  -0.9909442663192749,
+                  -0.9909442663192749,
+                  -0.49599048495292664,
+                  -1.1133103370666504,
+                  -1.715338110923767,
+                  -1.3505423069000244,
+                  -0.6953752636909485,
+                  -1.2438020706176758,
+                  -0.10014744102954865,
+                  -0.1944807767868042,
+                  -1.1814292669296265,
+                  -0.709977388381958,
+                  -0.709977388381958,
+                  -1.2176814079284668,
+                  -0.6875705122947693,
+                  -0.6875705122947693,
+                  -1.1452367305755615,
+                  -0.1731732338666916,
+                  -0.5538994073867798,
+                  0.21566550421791614
+                ],
+                [
+                  -0.254337340593338,
+                  -0.38740524649620056,
+                  -0.5338757634162903,
+                  -0.13815589249134064,
+                  0.7162107825279236,
+                  -0.910254180431366,
+                  -0.9147910475730896,
+                  -0.08918480575084686,
+                  -0.0774533748626709,
+                  -0.19772543013095856,
+                  -0.19530794024467468,
+                  -0.2422674298286438,
+                  -0.12026525288820267,
+                  -0.19356916844844818,
+                  -0.19352583587169647,
+                  -0.19349271059036255,
+                  -0.19345955550670624,
+                  -0.19342248141765594,
+                  -0.1110648587346077,
+                  -0.1110648587346077,
+                  -0.4830078184604645,
+                  -0.027397941797971725,
+                  -0.1643771380186081,
+                  -0.07028720527887344,
+                  -0.07028720527887344,
+                  -0.0610160194337368,
+                  -0.9102135300636292,
+                  -0.9028316736221313,
+                  -0.39812859892845154,
+                  -0.6045949459075928,
+                  -0.1983463168144226,
+                  -0.1983463168144226,
+                  -0.9028189778327942,
+                  -0.4572421908378601,
+                  -0.008308379910886288,
+                  -0.008308379910886288,
+                  -0.4456215500831604,
+                  -0.046645600348711014,
+                  -1.167741298675537,
+                  -0.02696129120886326,
+                  -0.17870067059993744,
+                  -0.0362396165728569,
+                  -0.15061728656291962,
+                  -0.03621751815080643,
+                  -0.03619686886668205,
+                  -0.01058776956051588,
+                  -0.4537819027900696,
+                  -0.036178041249513626,
+                  -0.024444524198770523,
+                  -0.4780111312866211,
+                  -0.02304624207317829,
+                  -0.0072793010622262955,
+                  -0.08007069677114487,
+                  -0.10668449848890305,
+                  -0.009609355591237545,
+                  -0.007518719416111708,
+                  -0.2982383072376251,
+                  -0.057967089116573334,
+                  -0.057967089116573334,
+                  -0.09337302297353745,
+                  -0.13117091357707977,
+                  -0.09337302297353745,
+                  0,
+                  -0.004295722581446171,
+                  -0.004295722581446171,
+                  0,
+                  -0.04670092090964317,
+                  -0.04670092090964317,
+                  -0.04670092090964317,
+                  -0.04670092090964317,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.5008906126022339,
+                  0,
+                  -0.42480623722076416,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2.456057548522949,
+                  -1.3197311162948608,
+                  -1.3197311162948608,
+                  -0.4770142138004303,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.09330777823925018,
+                  -0.09330777823925018,
+                  -0.18625877797603607,
+                  -0.1862252652645111,
+                  -0.1861850917339325,
+                  0,
+                  0,
+                  0,
+                  -0.18614321947097778,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.1864452064037323,
+                  0,
+                  -0.12411478906869888,
+                  0,
+                  -1.4297726154327393,
+                  2.178295373916626,
+                  -0.9324528574943542,
+                  -0.9323304891586304,
+                  -0.0620727576315403,
+                  -1.193250298500061,
+                  -0.0620383620262146,
+                  -0.13539981842041016,
+                  -0.10607044398784637,
+                  -0.05078230798244476,
+                  0,
+                  -0.08004496991634369,
+                  -0.024507926777005196,
+                  0,
+                  0,
+                  -0.05073957145214081,
+                  0,
+                  0,
+                  0,
+                  -0.016924738883972168,
+                  -0.03387347236275673,
+                  0,
+                  -0.0074082654900848866,
+                  -0.016947969794273376,
+                  -0.003754314035177231,
+                  -0.003754314035177231,
+                  -0.12402456253767014,
+                  -0.06215843930840492,
+                  -0.25174134969711304,
+                  0,
+                  0,
+                  2.7399120330810547,
+                  -1.6628293991088867,
+                  -1.2587543725967407,
+                  -0.40384289622306824,
+                  -0.40384289622306824,
+                  0,
+                  -0.06186322122812271,
+                  -0.18540404736995697,
+                  -0.18534979224205017,
+                  -0.09288899600505829,
+                  -0.09288899600505829,
+                  -0.0928879976272583,
+                  -0.0928879976272583,
+                  1.3671423196792603,
+                  12.43353271484375,
+                  0.3578120768070221,
+                  0.7047884464263916,
+                  0.33458930253982544,
+                  0.33458930253982544,
+                  3.774662733078003,
+                  3.774662733078003,
+                  3.774662733078003,
+                  6.688379764556885,
+                  6.688379764556885,
+                  4.402361869812012,
+                  4.402361869812012,
+                  -0.755791962146759,
+                  -0.9500812292098999,
+                  -0.3474976718425751,
+                  -0.46595653891563416,
+                  -0.35746556520462036,
+                  -0.35746556520462036,
+                  -0.20166121423244476,
+                  -0.6895273923873901,
+                  -0.8632283210754395,
+                  -0.35578861832618713,
+                  -0.24398431181907654,
+                  -0.4597080647945404,
+                  -0.07636634260416031,
+                  -0.10769031941890717,
+                  -0.3007948398590088,
+                  -0.2650899589061737,
+                  -0.2650899589061737,
+                  -0.44448521733283997,
+                  -0.24169884622097015,
+                  -0.24169884622097015,
+                  -0.2780839502811432,
+                  -0.15781071782112122,
+                  -0.15849873423576355,
+                  0.19293686750964026
+                ],
+                [
+                  -0.9948344826698303,
+                  -1.101489782333374,
+                  -1.1694583892822266,
+                  -0.2966501712799072,
+                  -0.866055428981781,
+                  -0.3714367151260376,
+                  -0.8161848783493042,
+                  -0.21841929852962494,
+                  -0.20317110419273376,
+                  -0.9749143123626709,
+                  -0.9681307077407837,
+                  -0.7793611288070679,
+                  -0.3524605929851532,
+                  -0.9592195153236389,
+                  -0.9537039399147034,
+                  -0.949099600315094,
+                  -0.9444106817245483,
+                  -0.9400069117546082,
+                  -0.49693021178245544,
+                  -0.49203455448150635,
+                  -0.9808486700057983,
+                  -0.07399873435497284,
+                  -0.6594325304031372,
+                  -0.20970360934734344,
+                  -0.20970360934734344,
+                  -0.1894703358411789,
+                  -0.3035208582878113,
+                  -0.11056854575872421,
+                  -0.0783243328332901,
+                  -0.07646719366312027,
+                  -0.06572070717811584,
+                  -0.06572070717811584,
+                  -0.2979492247104645,
+                  -0.1528293788433075,
+                  -0.06282588839530945,
+                  -0.06282588839530945,
+                  -0.07806893438100815,
+                  -0.22702383995056152,
+                  -0.8286263942718506,
+                  -0.1591964066028595,
+                  -0.6335058212280273,
+                  -0.20408496260643005,
+                  -0.7720565795898438,
+                  -0.19338560104370117,
+                  -0.18361932039260864,
+                  -0.061391111463308334,
+                  -0.34323352575302124,
+                  -0.20636460185050964,
+                  -0.15562398731708527,
+                  -2.243563413619995,
+                  -0.10291694104671478,
+                  -0.09008651226758957,
+                  -0.35566648840904236,
+                  -0.5866051316261292,
+                  -0.12082425504922867,
+                  -0.10238941013813019,
+                  -0.012180380523204803,
+                  0,
+                  0,
+                  -0.49886804819107056,
+                  -0.056407518684864044,
+                  -0.43992555141448975,
+                  -0.027256624773144722,
+                  -0.2725377082824707,
+                  -0.2404933124780655,
+                  -0.009136402979493141,
+                  -0.23643994331359863,
+                  -0.25807836651802063,
+                  -0.23643994331359863,
+                  -0.23643994331359863,
+                  -0.0033482073340564966,
+                  -0.14477509260177612,
+                  -0.04712264612317085,
+                  -0.04712264612317085,
+                  -0.05522959679365158,
+                  -0.018126729875802994,
+                  -0.03451383113861084,
+                  -0.03451383113861084,
+                  4.041699409484863,
+                  -2.010934829711914,
+                  0,
+                  0,
+                  0,
+                  -0.113611601293087,
+                  0,
+                  -0.3787478804588318,
+                  -0.5538938045501709,
+                  -0.21921835839748383,
+                  -1.0417225360870361,
+                  0,
+                  0,
+                  -0.06961365789175034,
+                  -0.06961365789175034,
+                  -0.022025294601917267,
+                  -0.11532377451658249,
+                  -2.1877479553222656,
+                  -0.8768314123153687,
+                  -0.8731748461723328,
+                  -0.869676411151886,
+                  -0.05459564924240112,
+                  -0.039190053939819336,
+                  0,
+                  -0.8562176823616028,
+                  -2.067121982574463,
+                  -0.0006678628269582987,
+                  0,
+                  -0.015283199958503246,
+                  -0.8796318769454956,
+                  -0.32762664556503296,
+                  -0.563998818397522,
+                  0,
+                  -7.118636131286621,
+                  -7.118636131286621,
+                  -0.017364347353577614,
+                  14.058436393737793,
+                  -0.2837108373641968,
+                  -1.1563563346862793,
+                  -0.2800930142402649,
+                  -0.6152847409248352,
+                  -0.4440903067588806,
+                  -0.2321081906557083,
+                  0,
+                  -0.3985356092453003,
+                  0,
+                  0,
+                  0,
+                  -0.22764548659324646,
+                  0,
+                  0,
+                  -0.013887974433600903,
+                  -0.07619936764240265,
+                  -0.15523138642311096,
+                  0,
+                  -0.2077125906944275,
+                  -0.07900107651948929,
+                  -0.10746554285287857,
+                  -0.10746554285287857,
+                  -0.5629199147224426,
+                  -0.28489598631858826,
+                  -0.74806147813797,
+                  -0.09296856820583344,
+                  -0.030174901708960533,
+                  -0.2702278792858124,
+                  -0.2888941168785095,
+                  -0.2888941168785095,
+                  0,
+                  0,
+                  0,
+                  -0.27781590819358826,
+                  -0.8109610676765442,
+                  -0.8075706362724304,
+                  -0.4163590371608734,
+                  -0.4163590371608734,
+                  -0.4161771833896637,
+                  -0.4161771833896637,
+                  -0.3631308972835541,
+                  -0.46804001927375793,
+                  -0.09481880068778992,
+                  -0.15289634466171265,
+                  -0.11281731724739075,
+                  -0.11281731724739075,
+                  -0.15248088538646698,
+                  -0.15248088538646698,
+                  -0.15248088538646698,
+                  0,
+                  0,
+                  0,
+                  0,
+                  4.07761287689209,
+                  10.04305648803711,
+                  10.000391006469727,
+                  14.068565368652344,
+                  7.042484283447266,
+                  7.042484283447266,
+                  4.0403056144714355,
+                  -1.1226091384887695,
+                  -1.559888243675232,
+                  -1.1312261819839478,
+                  -0.608827531337738,
+                  -1.1676231622695923,
+                  -0.11171767115592957,
+                  -0.2085956484079361,
+                  -1.076287865638733,
+                  -0.6929579377174377,
+                  -0.6929579377174377,
+                  -4.263797283172607,
+                  -0.6357027292251587,
+                  -0.6357027292251587,
+                  -1.0107356309890747,
+                  -0.3751996159553528,
+                  -0.4780119061470032,
+                  0.18957261061448905
+                ],
+                [
+                  -2.919417381286621,
+                  -4.5310444831848145,
+                  -3.868605852127075,
+                  -0.986179769039154,
+                  -4.508134365081787,
+                  -1.081829309463501,
+                  2.8011903762817383,
+                  -0.7075175046920776,
+                  -0.6198919415473938,
+                  -2.7678353786468506,
+                  -2.731992244720459,
+                  -2.38362717628479,
+                  -1.126938819885254,
+                  -2.6641652584075928,
+                  -2.6384923458099365,
+                  -2.6125450134277344,
+                  -2.5889129638671875,
+                  -2.569350481033325,
+                  -1.4664939641952515,
+                  -1.4507838487625122,
+                  0.3029916286468506,
+                  -4.593332767486572,
+                  -1.9193425178527832,
+                  -0.6301382184028625,
+                  -0.6301382184028625,
+                  -0.5181585550308228,
+                  -0.8779992461204529,
+                  -0.1914568543434143,
+                  -0.16770341992378235,
+                  -0.09677715599536896,
+                  -0.23257417976856232,
+                  -0.23257417976856232,
+                  -0.8677116632461548,
+                  -4.546905040740967,
+                  -0.17170953750610352,
+                  -0.17170953750610352,
+                  -0.17626029253005981,
+                  -0.7750765085220337,
+                  -7.742190361022949,
+                  -0.4829986095428467,
+                  -1.7877637147903442,
+                  -0.5924368500709534,
+                  -2.270383596420288,
+                  -0.5538252592086792,
+                  -0.5143905878067017,
+                  -0.18144749104976654,
+                  -1.034485101699829,
+                  -0.5831758379936218,
+                  -0.6760006546974182,
+                  -2.368710994720459,
+                  -0.3928573727607727,
+                  -0.22520725429058075,
+                  -0.9795503616333008,
+                  -1.66372549533844,
+                  -0.3580016791820526,
+                  -0.29358944296836853,
+                  0,
+                  0,
+                  0,
+                  -1.3846603631973267,
+                  -0.15270543098449707,
+                  -1.223517656326294,
+                  -0.07765435427427292,
+                  -0.7516457438468933,
+                  -0.6718572378158569,
+                  -0.023997696116566658,
+                  -0.6894570589065552,
+                  -0.7253377437591553,
+                  -0.6894570589065552,
+                  -0.6894570589065552,
+                  -0.007839573547244072,
+                  -0.2932494282722473,
+                  -0.10061078518629074,
+                  -0.10061078518629074,
+                  -0.10206950455904007,
+                  -0.03646959364414215,
+                  -0.06301380693912506,
+                  -0.06301380693912506,
+                  0.10831589996814728,
+                  -1.2460533380508423,
+                  0,
+                  0,
+                  0,
+                  -0.11935624480247498,
+                  0,
+                  -1.1349375247955322,
+                  -1.04867684841156,
+                  -0.7463208436965942,
+                  10.183899879455566,
+                  -5.754960060119629,
+                  -5.754960060119629,
+                  -0.01793309859931469,
+                  -0.01793309859931469,
+                  -0.0051010893657803535,
+                  -0.6707763075828552,
+                  -1.9922287464141846,
+                  -2.3386342525482178,
+                  -2.329261541366577,
+                  -2.319725275039673,
+                  -2.953448534011841,
+                  -1.4691845178604126,
+                  0,
+                  -2.3093416690826416,
+                  -1.3099181652069092,
+                  -0.0705881118774414,
+                  -0.05194954201579094,
+                  -1.4840031862258911,
+                  -2.3695011138916016,
+                  -1.612234354019165,
+                  -1.5642448663711548,
+                  0,
+                  -0.43422573804855347,
+                  -6.432879447937012,
+                  -0.23881742358207703,
+                  -2.1824734210968018,
+                  -0.7899856567382812,
+                  13.103830337524414,
+                  -0.7735722661018372,
+                  -1.709118366241455,
+                  -1.2448725700378418,
+                  -0.64376300573349,
+                  0,
+                  -1.0886892080307007,
+                  0,
+                  0,
+                  0,
+                  -0.624944269657135,
+                  0,
+                  0,
+                  0,
+                  -0.20940904319286346,
+                  -0.43901097774505615,
+                  0,
+                  -0.5426964163780212,
+                  -0.22862066328525543,
+                  -0.2870740294456482,
+                  -0.2870740294456482,
+                  -1.309677243232727,
+                  -1.632360816001892,
+                  2.9837162494659424,
+                  -4.547944068908691,
+                  -1.1222255229949951,
+                  -0.7614239454269409,
+                  -0.781906247138977,
+                  -0.781906247138977,
+                  0,
+                  0,
+                  -1.3200652599334717,
+                  -0.9973819851875305,
+                  -2.2307536602020264,
+                  -2.2234933376312256,
+                  -1.141634464263916,
+                  -1.141634464263916,
+                  -1.1316628456115723,
+                  -1.1316628456115723,
+                  -0.9851381182670593,
+                  -1.275913953781128,
+                  -0.2714192569255829,
+                  -0.42926913499832153,
+                  -0.30484044551849365,
+                  -0.30484044551849365,
+                  -0.37854665517807007,
+                  -0.37854665517807007,
+                  -0.37854665517807007,
+                  0,
+                  0,
+                  -0.00011132368672406301,
+                  -0.00011132368672406301,
+                  -1.1766232252120972,
+                  -2.4723823070526123,
+                  -1.0839662551879883,
+                  -2.192962646484375,
+                  -1.1243096590042114,
+                  -1.1243096590042114,
+                  -0.04419688135385513,
+                  -0.10727562010288239,
+                  13.131881713867188,
+                  13.113633155822754,
+                  12.781515121459961,
+                  13.08853816986084,
+                  0.16927160322666168,
+                  0.21882641315460205,
+                  13.101481437683105,
+                  6.572559356689453,
+                  6.572559356689453,
+                  13.086421966552734,
+                  6.5700602531433105,
+                  6.5700602531433105,
+                  13.091048240661621,
+                  2.963554859161377,
+                  10.3328275680542,
+                  1.1152579077587081
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "ar",
+        "مرحبا"
+      ],
+      [
+        "ar",
+        "كيفك"
+      ],
+      [
+        "ar",
+        "شلونك حبيب"
+      ],
+      [
+        "ar",
+        "شلونك "
+      ],
+      [
+        "ar",
+        "شو الأخبار"
+      ],
+      [
+        "ar",
+        " شو الحالة"
+      ],
+      [
+        "ar",
+        "شلونك غالي"
+      ],
+      [
+        "ar",
+        "شلونك اخي"
+      ],
+      [
+        "ar",
+        "هاي"
+      ],
+      [
+        "ar",
+        "سلامات"
+      ],
+      [
+        "ar",
+        "كيفكم"
+      ],
+      [
+        "ar",
+        "كيف الحال"
+      ],
+      [
+        "ar",
+        "ما الاخبار"
+      ],
+      [
+        "ar",
+        "هايات"
+      ],
+      [
+        "ar",
+        "هلو"
+      ],
+      [
+        "ar",
+        "الوو"
+      ],
+      [
+        "ar",
+        "مراحب"
+      ],
+      [
+        "ar",
+        "شالوم"
+      ],
+      [
+        "ar",
+        "حابب حكيك"
+      ],
+      [
+        "ar",
+        "السلام عليكم"
+      ],
+      [
+        "ar",
+        "كيف حالك"
+      ],
+      [
+        "ar",
+        ""
+      ],
+      [
+        "ar",
+        " ماذا تقوم به "
+      ],
+      [
+        "ar",
+        " ما عملك"
+      ],
+      [
+        "ar",
+        " ماذا تعمل"
+      ],
+      [
+        "ar",
+        "شو بتشتغلو"
+      ],
+      [
+        "ar",
+        "شو بتعمل "
+      ],
+      [
+        "ar",
+        "شو الهدف منك"
+      ],
+      [
+        "ar",
+        "ما المهمات التي تقدمها"
+      ],
+      [
+        "ar",
+        " ماذا تقدمون"
+      ],
+      [
+        "ar",
+        "شو بتقدموا"
+      ],
+      [
+        "ar",
+        "شو المهمات التي تقدمها"
+      ],
+      [
+        "ar",
+        " شو بتعملو"
+      ],
+      [
+        "ar",
+        " ما الخدمات المقدمة لديكم"
+      ],
+      [
+        "ar",
+        " شو الخدمات المتوفرة"
+      ],
+      [
+        "ar",
+        " ما الخدمات المتوفرة"
+      ],
+      [
+        "ar",
+        "ليش البوت موجودة"
+      ],
+      [
+        "ar",
+        " ما الهدف من البوت"
+      ],
+      [
+        "ar",
+        "خبرني عنك"
+      ],
+      [
+        "ar",
+        "أخبرني عنك"
+      ],
+      [
+        "ar",
+        "حدثني عنك"
+      ],
+      [
+        "ar",
+        "اشرح لي عنك"
+      ],
+      [
+        "ar",
+        "حكيلي عنك"
+      ],
+      [
+        "ar",
+        "ليش البوت موجود"
+      ],
+      [
+        "ar",
+        "لشو هالبوت"
+      ],
+      [
+        "ar",
+        "ليش عاملين هالبوت "
+      ],
+      [
+        "ar",
+        "حكيلي عن البوت"
+      ],
+      [
+        "ar",
+        "لي عاملين البوت"
+      ],
+      [
+        "ar",
+        "اوصفلي نفسك"
+      ],
+      [
+        "ar",
+        "صف لي نفسك"
+      ],
+      [
+        "ar",
+        "وصفلي لي نفسك"
+      ],
+      [
+        "ar",
+        "شو الفايدة منك"
+      ],
+      [
+        "ar",
+        "شو الفايدة من البوت"
+      ],
+      [
+        "ar",
+        "شو فايدة من البوت"
+      ],
+      [
+        "ar",
+        "شو رح استفيد من البوت"
+      ],
+      [
+        "ar",
+        "قدي عمر البوت"
+      ],
+      [
+        "ar",
+        "قدي صرلو البوت منشأ"
+      ],
+      [
+        "ar",
+        "قدي صرلو  "
+      ],
+      [
+        "ar",
+        "من ايمت معمول  "
+      ],
+      [
+        "ar",
+        " من ايمت البوت شغال "
+      ],
+      [
+        "ar",
+        " منذ كم الوت يعمل "
+      ],
+      [
+        "ar",
+        " شو عمر البوت"
+      ],
+      [
+        "ar",
+        "حابب اعرف عمر البوت"
+      ],
+      [
+        "ar",
+        "حابب اعرف قدي صرلو البوت"
+      ],
+      [
+        "ar",
+        "متى تم انشاء البوت"
+      ],
+      [
+        "ar",
+        "متى تأنشأ البوت"
+      ],
+      [
+        "ar",
+        " ايمت عملتو البوت"
+      ],
+      [
+        "ar",
+        "متى قمتم بتشغيل البوت"
+      ],
+      [
+        "ar",
+        " ما عمر البوت"
+      ],
+      [
+        "ar",
+        "هالبوت كتير غبي"
+      ],
+      [
+        "ar",
+        "  شو هالبوت البطئ"
+      ],
+      [
+        "ar",
+        " لي هيك البوت غبي"
+      ],
+      [
+        "ar",
+        " ما حبيت هالبوت"
+      ],
+      [
+        "ar",
+        " البوت بهوي"
+      ],
+      [
+        "ar",
+        " هالبوت ما منيح "
+      ],
+      [
+        "ar",
+        "انت سيئ جدا"
+      ],
+      [
+        "ar",
+        "البوت سيئ جدا"
+      ],
+      [
+        "ar",
+        " روح عنا ولو"
+      ],
+      [
+        "ar",
+        "اسوء بوت بشوفو"
+      ],
+      [
+        "ar",
+        " اسوء بوت بشوفو بحياتي"
+      ],
+      [
+        "ar",
+        "استجابتك بطيئة"
+      ],
+      [
+        "ar",
+        "يع "
+      ],
+      [
+        "ar",
+        "تفه "
+      ],
+      [
+        "ar",
+        "تفوو "
+      ],
+      [
+        "ar",
+        "روحو حسنو البوت  "
+      ],
+      [
+        "ar",
+        "البوت تبعكم زبالة"
+      ],
+      [
+        "ar",
+        "كتير الرد بطيئ"
+      ],
+      [
+        "ar",
+        "زبالة"
+      ],
+      [
+        "ar",
+        "هالبوت بضحك"
+      ],
+      [
+        "ar",
+        "هالبوت بخزي "
+      ],
+      [
+        "ar",
+        " روحو طورو حالكم "
+      ],
+      [
+        "ar",
+        " روحو حسنو حالكم "
+      ],
+      [
+        "ar",
+        " انقلع "
+      ],
+      [
+        "ar",
+        " انقلع "
+      ],
+      [
+        "ar",
+        " شغلكم سيئ "
+      ],
+      [
+        "ar",
+        "  البوت غير جيد "
+      ],
+      [
+        "ar",
+        "الله لا يوفقك"
+      ],
+      [
+        "ar",
+        "لا سامحكم الله"
+      ],
+      [
+        "ar",
+        "البوت غير مفيد"
+      ],
+      [
+        "ar",
+        "لا داعي للبوت"
+      ],
+      [
+        "ar",
+        "غير مفيد"
+      ],
+      [
+        "ar",
+        "غير مثمر"
+      ],
+      [
+        "ar",
+        "مين مدير البوت"
+      ],
+      [
+        "ar",
+        "من المدير"
+      ],
+      [
+        "ar",
+        "مين معلمك "
+      ],
+      [
+        "ar",
+        "مين اصحاب البوت  "
+      ],
+      [
+        "ar",
+        "كام مدير "
+      ],
+      [
+        "ar",
+        " شو اسم مدير البوت"
+      ],
+      [
+        "ar",
+        "ما اسم مدير البوت "
+      ],
+      [
+        "ar",
+        "ما اسماء مدراء البوت "
+      ],
+      [
+        "ar",
+        " مين البوس  "
+      ],
+      [
+        "ar",
+        " مين مالك البوت "
+      ],
+      [
+        "ar",
+        " مين صاحب البوت "
+      ],
+      [
+        "ar",
+        " لمين البوت "
+      ],
+      [
+        "ar",
+        " من صنع البوت "
+      ],
+      [
+        "ar",
+        " مين صنع البوت "
+      ],
+      [
+        "ar",
+        " مين الي انشأ البوت "
+      ],
+      [
+        "ar",
+        "من المبرمج"
+      ],
+      [
+        "ar",
+        "مين الي برمجك"
+      ],
+      [
+        "ar",
+        "مين الي صنعك"
+      ],
+      [
+        "ar",
+        " ما اسم مبرمج البوت"
+      ],
+      [
+        "ar",
+        "من صاحاب المشروع"
+      ],
+      [
+        "ar",
+        " لمين هالبوت "
+      ],
+      [
+        "ar",
+        "  مين صاحب البوت "
+      ],
+      [
+        "ar",
+        "فيك تساعدني"
+      ],
+      [
+        "ar",
+        "بدي مساعدتك خيو"
+      ],
+      [
+        "ar",
+        "بدي  مساعدة"
+      ],
+      [
+        "ar",
+        "هل يمكنك مساعدتي"
+      ],
+      [
+        "ar",
+        "هل يمكنك تقديم السماعدة لي"
+      ],
+      [
+        "ar",
+        "بدي ياك تساعدني بشغلة"
+      ],
+      [
+        "ar",
+        " فيك تخدمني"
+      ],
+      [
+        "ar",
+        "ساعدني"
+      ],
+      [
+        "ar",
+        "اسعفني"
+      ],
+      [
+        "ar",
+        "هيلب مي"
+      ],
+      [
+        "ar",
+        "قدي فيك تخدمني"
+      ],
+      [
+        "ar",
+        "قدي فيك تساعدني"
+      ],
+      [
+        "ar",
+        "كم يمكنك مساعدتي"
+      ],
+      [
+        "ar",
+        "فيك تساعدني"
+      ],
+      [
+        "ar",
+        "بدي خدمة"
+      ],
+      [
+        "ar",
+        "فيني عذبك؟"
+      ],
+      [
+        "ar",
+        " اكيد هالمعلومات صح"
+      ],
+      [
+        "ar",
+        " اكيد هالمعلومات صحيحة"
+      ],
+      [
+        "ar",
+        " يا ترى هالمعلومات صحيحة"
+      ],
+      [
+        "ar",
+        " يا ترى  انت عم تحكي الحقيقة ؟"
+      ],
+      [
+        "ar",
+        " انت عم تحكي الحقيقة ؟"
+      ],
+      [
+        "ar",
+        " هالمعلومات اكيدة"
+      ],
+      [
+        "ar",
+        "شو مصداقية الكلام"
+      ],
+      [
+        "ar",
+        "هل المعلومات صحية ام لا"
+      ],
+      [
+        "ar",
+        "انا اسف"
+      ],
+      [
+        "ar",
+        "انا بعتذر"
+      ],
+      [
+        "ar",
+        " عفوا"
+      ],
+      [
+        "ar",
+        " اسف كتير"
+      ],
+      [
+        "ar",
+        "هاد خطئي"
+      ],
+      [
+        "ar",
+        " لحظة اسف"
+      ],
+      [
+        "ar",
+        "سامحني"
+      ],
+      [
+        "ar",
+        "يلا باي"
+      ],
+      [
+        "ar",
+        "باي باي "
+      ],
+      [
+        "ar",
+        "وداعا "
+      ],
+      [
+        "ar",
+        "يلا سلام باي "
+      ],
+      [
+        "ar",
+        "بايات "
+      ],
+      [
+        "ar",
+        "مع السلامة"
+      ],
+      [
+        "ar",
+        " بدي روح"
+      ],
+      [
+        "ar",
+        " نعست "
+      ],
+      [
+        "ar",
+        "يلا حاج باي "
+      ],
+      [
+        "ar",
+        "يلا  فرقني نعست "
+      ],
+      [
+        "ar",
+        " تعبت"
+      ],
+      [
+        "ar",
+        " منحكي بعدين"
+      ],
+      [
+        "ar",
+        " كتير معصب"
+      ],
+      [
+        "ar",
+        "  معصب"
+      ],
+      [
+        "ar",
+        "  دايقة خلاقي"
+      ],
+      [
+        "ar",
+        " مالل"
+      ],
+      [
+        "ar",
+        "طاقة روحي"
+      ],
+      [
+        "ar",
+        " كرهان حالي"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {}
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {
+      "ar": {
+        "welcome": [
+          {
+            "answer": "اهلا"
+          },
+          {
+            "answer": "كيفك انت"
+          },
+          {
+            "answer": "الحمدلله"
+          },
+          {
+            "answer": "منيح وأنت ؟"
+          },
+          {
+            "answer": "منيح "
+          },
+          {
+            "answer": " اهلين كيفك انت؟"
+          },
+          {
+            "answer": "  جيد وأنت ؟"
+          },
+          {
+            "answer": "لله الحمد والمنة"
+          },
+          {
+            "answer": "بأفضل حال, شكرا"
+          },
+          {
+            "answer": " اهلا بك صديقي"
+          },
+          {
+            "answer": " اهلا بك"
+          },
+          {
+            "answer": "  تفضل كيف اساعدك؟"
+          },
+          {
+            "answer": " كيف اخدمك ؟"
+          }
+        ],
+        "job": [
+          {
+            "answer": "يقوم البوت بتقديم خدمات بحث "
+          },
+          {
+            "answer": "نقوم بتقديم خدمات قرئانية واسلامية"
+          },
+          {
+            "answer": "هدفنا تقديم خدمات اسلامية"
+          }
+        ],
+        "about_bot": [
+          {
+            "answer": "انا بوت مساعد لك   "
+          },
+          {
+            "answer": "انا بوت مدرب لمساعدتك"
+          },
+          {
+            "answer": "انا بوت مدرب لارشادك  "
+          }
+        ],
+        "age": [
+          {
+            "answer": " البوت منشأ جديدا"
+          },
+          {
+            "answer": " البوت جديد نسبيا"
+          }
+        ],
+        "bad": [
+          {
+            "answer": " هذا من لطفك يا مهذب 😊"
+          },
+          {
+            "answer": " هذا رأيك الشخصي 😊"
+          },
+          {
+            "answer": " شكرا على  رأيك الشخصي 😊"
+          },
+          {
+            "answer": " شكرا لك يا مهذب 😊"
+          }
+        ],
+        "master": [
+          {
+            "answer": "المهندس : محمد نور الديب "
+          }
+        ],
+        "help": [
+          {
+            "answer": " بالطبع انا مصمم لذلك"
+          },
+          {
+            "answer": " بالطبع انا سأكون مسرور بذلك"
+          },
+          {
+            "answer": " يمكنك اعتباري مساعدك الشخصي"
+          },
+          {
+            "answer": " سأسر بذذلك بكل تأكيد"
+          }
+        ],
+        "truth": [
+          {
+            "answer": " بالطبع معلوماتي مؤكدة "
+          },
+          {
+            "answer": " أنا لا أقدم الا الحقائق "
+          }
+        ],
+        "sorry": [
+          {
+            "answer": " لا تهتم "
+          },
+          {
+            "answer": "لا تتأسف فهذه مهمتي "
+          },
+          {
+            "answer": " لا داعي لذلك"
+          }
+        ],
+        "bye": [
+          {
+            "answer": "الى اللقاء ,سأكون قريبا"
+          },
+          {
+            "answer": " وداعا نتحدث لاحقا"
+          },
+          {
+            "answer": "أنا معك متى شئت , وداعا الأن"
+          }
+        ]
+      }
+    }
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}
